@@ -1,0 +1,233 @@
+
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #06D85F;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 30;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    overflow-y: scroll;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #1e73be;
+    display: block;
+    width: 80%;
+    position: relative;
+ 
+  }
+  
+  .popup h2 {
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 22px;
+  }
+  .popup .p{
+
+    color: #ffffff;
+    
+    font-weight: 500;
+    text-align: left;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 100%;
+    }
+  }
+
+
+  .cs-dm-ban{
+      background: url(../../images/2020/06/digital-marketing-packages5.jpg);
+      width: 100%;
+      height: auto;
+      min-height: 300px;
+      background-repeat: no-repeat;
+      background-size: cover;
+        text-align: center;
+        padding: 60 0 60 0;
+  }
+  .cs-dm-ban h2{
+
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+  }
+  .cs-dm-ban p{
+
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .cs-dm-sec{
+      margin: 40 0 40 0;
+  }
+  .cs-dm-sec img{
+width: auto;
+height: 100%;
+max-width: 100%;
+
+
+
+  }
+  .tile-h{
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
+    padding-top: 40px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-bottom: 40px !important;
+    width: 100%;
+    height: 100%;
+}
+
+.cs-dm-sec .row{
+    
+    --bs-gutter-x: 0rem;
+
+}
+.tile-h h3{
+    color: #030712;
+    text-align: left;
+ 
+    line-height: 36px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 26px;
+}
+.tile-h p{
+    text-align: justify;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    font-family: 'rubik';
+}
+  .pop-but{
+    font-size: 13px;
+    padding: 5px;
+    color: #000000;
+    border: 2px solid #06D85F;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .pop-but:hover{
+    font-size: 13px;
+    padding: 5px;
+    color: #000000;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .cs-wd-ban{
+    background: url(../../images/2020/06/web-development-banner.jpg);
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+      text-align: center;
+      padding: 60 0 60 0;
+  }
+
+  .cs-wd-ban h2{
+
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+  }
+  .cs-wd-ban p{
+
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  
+  .cs-erp-ban{
+    background: url(../../images/2020/06/website-development-company-in-mumbai.jpg);
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+      text-align: center;
+      padding: 60 0 60 0;
+  }
+
+  .cs-erp-ban h2{
+
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+  }
+  .cs-erp-ban p{
+
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+  }

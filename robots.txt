@@ -1,0 +1,26 @@
+User-agent: AhrefsBot
+Disallow: .js
+Disallow: .css
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /college-portal.php
+Disallow: /school-portal.php
+Disallow: /digital-marketing/web-design/web-e-commerce.php
+Disallow: /casestudy/software-development.php
+Disallow: /pricing-website.php
+Disallow: /crm.php
+Disallow: /payroll.php
+Disallow: /email-marketing.php
+Disallow: /digital-marketing/graphics-designs.php
+Disallow: /travel-agency.php
+Disallow: /budgeting-software.php
+Disallow: /accounting.php
+Disallow: /employee-performance-management.php
+Disallow: /about-us/pricing.php
+Disallow: /e-learning.php
+User-Agent: Googlebot
+Allow: .js
+Allow: .css
+Sitemap: https://intuisyz.com/sitemap.xml
+
+

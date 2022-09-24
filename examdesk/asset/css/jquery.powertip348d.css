@@ -1,0 +1,48 @@
+/*
+* styles floating tooltips
+* based on http://stevenbenner.github.io/jquery-powertip/
+* customized to match freshapp
+*/
+
+.tooltips {
+    border-bottom: 1px dashed #AAA;
+}
+
+/* PowerTip Plugin */
+#powerTip {
+	background: #fff;
+	border: 2px solid #CCCCCC;
+	position: absolute;
+	z-index: 2147483647;
+	width: 190px;
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 0 #8C8C8C;
+	color: #8C8C8C
+}
+
+#powerTip:after, #powerTip:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#powerTip.sw-alt:after {
+	border-bottom-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+	left: 30px;
+}
+
+#powerTip.sw-alt:before {
+	border-bottom-color: #CCCCCC;
+	border-width: 13px;
+	margin-left: -13px;
+	left: 30px;
+}

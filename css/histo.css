@@ -1,0 +1,108 @@
+	.df{
+		background-color: #486bab;
+		width:100%;
+
+		padding:30px 35px;
+	}
+	.db{
+		background-color: #efefef;
+		color: #111;
+		width:100%;
+
+		padding:30px 35px;
+	}
+.height400{
+	height:400px;
+}
+.height350{
+	min-height:285px;
+}
+.color-ccc{
+	background-color: #efefef;
+}
+.mentol{
+	min-height: 438px;
+	color: #fff;
+}
+.sonil{
+ 
+
+  height:405px;
+}
+.denol{
+
+}
+.pad50{
+	padding-top:210px;
+
+}
+
+
+@media screen and (min-width: 1200px) {
+	.pad50{
+	padding-top:0px;
+	padding-left: 132px;
+	padding-right:30px;
+	text-align: justify;
+
+	
+}
+}
+	@media screen and (max-width: 498px) {.pad50{
+		padding-top:25px;
+		padding-left: 30px;
+	}	}
+
+
+	@media screen and (max-width: 480px) {
+
+		.bluth{
+			margin-top:25%;
+			font-size: 28px;
+			font-weight:300;
+			font-family: "open sans",arial;
+			color: #44286a;
+			letter-spacing: 2px;
+
+		}
+	}
+
+
+	.bikp{
+		padding-left: 7%;
+		margin-top:18%;
+	}
+
+
+@media screen and (max-width: 498px) {
+
+.sonil{
+ 
+
+  height:215px;
+}
+}
+	.historybanner
+	{
+		background-image:url('../img/history.jpg');
+		min-height:700px;
+		background-repeat: no-repeat;
+
+	}
+	@media screen and (max-width: 498px) {
+		.historybanner
+		{
+			background-image:url('../img/history.jpg');
+			min-height:363px;
+			background-repeat: no-repeat;
+			background-position: 25% 5%;
+		}
+	}
+	@media screen and (max-width: 1200px) {
+		.historybanner
+		{
+			background-image:url('../img/history.jpg');
+			min-height:363px;
+			background-repeat: no-repeat;
+		}
+	}

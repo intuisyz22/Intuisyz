@@ -1,0 +1,12 @@
+[02-May-2022 01:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/intutive/public_html/blog/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/intutive/public_html/blog/wp-content/themes/twentytwenty/index.php on line 17
+[21-Jul-2022 03:28:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/intutive/public_html/blog/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/intutive/public_html/blog/wp-content/themes/twentytwenty/404.php on line 10
+[13-Sep-2022 09:43:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/intutive/public_html/blog/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/intutive/public_html/blog/wp-content/themes/twentytwenty/404.php on line 10

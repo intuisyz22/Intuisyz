@@ -1,0 +1,472 @@
+.mentol1{
+    min-height: 427px;
+    color: #fff;
+    background-color: #e97039;
+    margin-left: 50px;
+
+}
+.casestudybanner{
+    background-image:url('../img/casestudy.jpg');
+    min-height:710px;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 480px){
+    .casestudybanner{
+        background-image:url('../img/casestudy.jpg');
+        min-height:500px;
+        background-repeat: no-repeat;
+    }
+}
+
+.blutdm{
+    font-size: 45px;
+    font-weight:300;
+    font-family: "open sans",arial;
+    color: #000000;
+    letter-spacing: 2px;
+
+}
+.dmbanner
+{
+    background-image:url('../img/Digitalmarketing1.jpg');
+    min-height:683px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media screen and (max-width: 480px)
+{
+    .dmbanner
+    {
+        background-image:url('../img/Digitalmarketing1.jpg');
+        min-height:308px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .digitalmatketing {
+    padding:10px 10px 10px 10px !important;
+    text-align: justify;
+}
+
+}
+@media screen and (max-width: 1200px){.mentol{
+    min-height: 427px;
+    color: #fff;
+    background-color: #e97039;
+    margin-right:0 !important;
+}}
+@media screen and (max-width: 1200px){.mentol1{
+    min-height: 427px;
+    color: #fff;
+    background-color: #e97039;
+    margin-left:0 !important;
+}}
+.dmleft
+{
+   float:left;
+    z-index: 1000;
+    padding: 50px 53px 0px;
+}
+.dmright
+{
+    float:right;
+    z-index: 1000;
+    padding: 50px 53px 0px;
+    text-align: right;
+}
+.dmone
+{
+    background-image:url('../img/DMfirst.jpg');
+    height:735px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dmtwo
+{
+    background-image:url('../img/kalyan.jpg');
+    height:735px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dmthree
+{
+    background-image:url('../img/DM3.jpg');
+    height:735px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dmfour
+{
+    background-image:url('../img/DM4.jpg');
+    height:735px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media screen and (min-width: 767px){
+.wdbanner
+{
+    background-image:url('../img/WDbanner.jpg');
+    min-height:683px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.manto{
+    font-size: 40px;
+}
+
+
+.wdbanner1
+{
+    background-image:url('../img/itoutsource-case.jpg');
+    min-height:683px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+}
+@media screen and (max-width: 767px){
+.wdbanner
+{
+    background-image:url('../img/WDbanner.jpg');
+    min-height:189px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.manto{
+    font-size: 20px;
+}
+
+
+}
+.wdone
+{
+    background-image:url('../img/WD1.jpg');
+    height:735px;
+    background-repeat: no-repeat;
+}
+.wdtwo
+{
+    background-image:url('../img/WD2.jpg');
+    height:731px;
+    background-repeat: no-repeat;
+}
+.wdthree
+{
+    background-image:url('../img/WD3.jpg');
+    height:731px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px){
+.sdbanner
+{
+    background-image:url('../img/sdbanner.jpg');
+    min-height:180px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+}
+@media screen and (min-width: 767px){
+
+.sdbanner
+{
+    background-image:url('../img/sdbanner.jpg');
+    min-height:683px;
+    background-repeat: no-repeat;
+}}
+.sdone
+{
+    background-image:url('../img/sd1.jpg');
+    height:735px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.sdtwo
+{
+    background-image:url('../img/sd2.jpg');
+    height:731px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.webhead{padding: 20px;}
+
+@media screen and (min-width: 768px){
+.erpbanner
+{
+    background-image:url('../img/erpbanner.jpg');
+    min-height:683px;
+    background-repeat: no-repeat;
+}
+}
+
+@media screen and (max-width: 767px){
+.erpbanner
+{
+    background-image:url('../img/erpbanner.jpg');
+    min-height:180px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+}
+
+
+.erpone
+{
+    background-image:url('../img/ERP1.jpg');
+    height:735px;
+    background-repeat: no-repeat;
+}
+.erptwo
+{
+    background-image:url('../img/ERP2.jpg');
+    height:731px;
+    background-repeat: no-repeat;
+}
+.erpthree
+{
+    background-image:url('../img/ERP3.jpg');
+    height:731px;
+    background-repeat: no-repeat;
+}
+
+
+
+.sreport
+{
+    background-image:url('../images/SM-Reoprts.jpg');
+    min-height:612px;
+    background-repeat: no-repeat;
+}
+.sales
+{
+    background-image:url('../images/smanagement.jpg');
+    min-height:612px;
+    background-repeat: no-repeat;
+}
+.smreport
+{
+    background-image:url('../images/smreoprts.jpg');
+    min-height:100px;
+    background-repeat: no-repeat;
+}
+.report
+{
+    background-image:url('../images/reports.jpg');
+    height:487px;
+    background-repeat: no-repeat;
+}
+
+.project-manegement-bg
+{
+    background-image:url('../images/project-management-bg.jpg');
+    min-height:612px;
+    background-repeat: no-repeat;
+}
+.project-manegement-mob
+{
+    background-image:url('../images/project-management-mob.jpg');
+    background-repeat: repeat;
+}
+.project-manegement-report-bg
+{
+    background-image:url('../images/project-mangnt-report-bg.jpg');
+    min-height:612px;
+    background-repeat: no-repeat;
+}
+.project-manegement-report-mob
+{
+    background:white;
+
+}
+
+.vendor-management-bg
+{  background-image:url('../images/vendor-management-bg.jpg');
+    min-height:612px;
+    background-repeat: no-repeat;
+}
+.vendor-management-mob
+{  background-image:url('../images/vendor-management-mob.jpg');
+    background-repeat: no-repeat;
+}
+.hr-report-bg
+{  background-image:url('../images/hr-report-bg.jpg');
+    min-height:612px;
+    background-repeat: no-repeat;
+}
+.hr-report-mob
+{  background-image:url('../images/hr-report-mob.jpg');
+    background-repeat: no-repeat;
+}
+.payroll-bg
+{  background-image:url('../images/payroll-bg.jpg');
+    min-height:612px;
+    background-repeat: no-repeat;
+}
+.payroll-mob
+{  background-image:url('../images/payroll-mob.jpg');
+    background-repeat: no-repeat;
+}
+#hr-report{}
+
+#hr-report img{
+    display: block;  margin-left: auto;  margin-right: auto
+}
+#vendor-management{}
+
+#vendor-management .records{
+    font-size: 18px;  color: #7d25c6; padding: 5% 10%;
+}
+#vendor-management .records img{
+     padding: 2% 20px 2% 0px;
+}
+#vendor-management .records p{
+    font-size: 14px; color: #666666; text-align: justify;
+
+}
+#project-manegement{  }
+#project-manegement .bg-gray{
+    background: #ecebeb; padding: 5% 0%;
+}
+#project-manegement .bg-white,#project-manegement .bg-para{
+    background: white; padding: 5% 0%;
+}
+#project-manegement .bg-white h2,#project-manegement .bg-gray h2,#project-manegement .bg-para h2{
+    color:#7d25c6; text-align: center; padding-bottom: 4%;
+}
+#project-manegement .bg-white p,#project-manegement .bg-gray p,#project-manegement .bg-para{
+   text-align: justify; color: #a5a5a5;
+}
+#project-manegement .bg-white img,#project-manegement .bg-gray img{
+   text-align: center; max-width: 100%;
+}
+#project-manegement .bg-para{
+    font-size: 16px;
+}
+
+#project-manegement .sub-para {
+    font-size: 14px;
+}
+#project-manegement .sub-para img{
+    text-align: center; max-width: 100%;
+}
+#project-manegement .sub-para h3{
+    color:#000; text-align: center; padding-bottom: 4%;
+
+}
+
+#project-manegement-report{
+    font-size: 16px;
+}
+#hr-report-cat{
+    font-size: 16px; background-color: #9398b7;
+    padding: 10px 0; color: #ffffff;
+}
+#project-manegement-cat{
+    font-size: 16px; background-color: #b86448;
+    padding: 10px 0; color: #ffffff;
+}
+#project-manegement-cat ul li,#hr-report-cat ul li{
+    float: left; text-decoration: underline; margin: 0 5px; padding: 0px 10px 0px;
+}
+
+#project-manegement-cat ul li:link,#project-manegement-cat ul li:visited,#hr-report-cat ul li:link,#hr-report-catul li:visited{
+    color: #ffffff;
+}
+#project-manegement-cat ul li:hover,#hr-report-cat ul li:hover{
+    color: red;
+}
+#project-manegement-cat ul li:nth-child(2),#hr-report-cat ul li:nth-child(2){
+  border-right: 1px solid #ffffff; border-left: 1px solid #ffffff;
+}
+
+#project-manegement-report .paras{
+    padding: 5% ; color: #000; font-size: 14px;
+}
+#project-manegement-report .padding{
+    padding: 20px 10% ;
+}
+
+#project-manegement-report img{
+    padding:0  10px 10px 0;
+}
+#project-manegement-report p{
+    font-size: 14px; text-align: justify;
+}
+@media screen and (min-width: 768px){
+.lato-blue{
+    color: blue;
+    font-weight: bold;
+    font-size: 45px;
+}
+}
+    .app
+    {
+        float:right;
+        z-index:2000;
+        /*padding: 170px 140px 0px;*/
+        text-align: left;
+        color: white;
+    }
+    .appbut
+    {
+       width: 40%;
+
+        border: 1px solid white;
+        padding: 10px;
+    }
+    .app1
+    {
+
+        z-index:2000;
+        padding: 110px 100px 0px 100px;
+        text-align: center;
+        color: white;
+        margin: auto;
+    }
+    @media screen and (max-width: 767px){#digital-mark .our1{
+        padding: 40px 20px;
+    }}
+    #digital-mark .our1{
+        padding: 30px 24px;
+    }
+
+.webapp{
+    background-image:url('../img/WebApp-Development.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 605px;
+    width: 100%;
+    background-size: 100% auto;
+}
+@media screen and (max-width: 768px){
+    .webapp{
+        background-image:url('../img/WebApp-Development.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 200px;
+        width: 100%;
+        background-size:100%;
+    }
+    .fontsmall{
+        font-size: 12px;
+        font-weight:600;
+    }
+    .bikpapp {
+        padding-left: 7%;
+        margin-top: 11%;
+    }
+
+}
+.bikpapp {
+    padding-left: 7%;
+    margin-top: 11%;
+}
+.mobapppara{
+    padding: 30px;
+    text-align: center;
+
+}
+.mobapbaner{padding-left: 20px}

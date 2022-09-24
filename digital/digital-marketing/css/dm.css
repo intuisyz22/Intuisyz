@@ -1,0 +1,132 @@
+.im-ban{
+    background: url(../../images/2020/06/digital-marketing-concept-banner-header-vector-24519463.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    text-align: center;
+    padding: 70;
+}
+.im-ban h2{
+
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.im-sec1{
+    margin: 40 0 40 0;
+}
+.im-sec1 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.im-sec1 h3{
+    font-size: 25px;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+.im-sec1 p{
+    color: #5fa2dd;
+    text-align: justify;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.im-sec1 a{
+    color: #fff;
+    border-color: #f90;
+    background-color: #f90;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    
+}
+.im-sec1 a:hover{
+    color: #fff;
+    border-color: #f90;
+    background-color: #f90;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+   
+}
+.im-sec1 .line{
+   margin: 40 0 40 0;
+    height: 1px;
+    border-top: 1px solid #f4524d;
+    display: block;
+    position: relative;
+ 
+    width: 100%;
+}
+.im-sec2{
+        background-color: #913fe2 !important;
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+        padding: 30 0 30 0;
+}
+.im-sec2 h3{
+    font-family: Rubik;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;    
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left;
+}
+.im-sec2 p{
+    font-family: Rubik;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+}
+.im-sec2 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.im-sec2 a{
+    color: #666;
+    border-color: #ebebeb;
+    background-color: #ebebeb;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+.im-sec2 a:hover{
+    color:#666;
+}

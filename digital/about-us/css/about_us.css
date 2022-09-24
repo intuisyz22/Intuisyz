@@ -1,0 +1,600 @@
+.company-banner{
+    background: url(../../images/2020/06/banner-services.jpg);
+    width: 100%;
+    height:  300px ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+}
+
+.company-banner .text{
+text-align: center;
+margin: 70;
+
+}
+.company-banner .title{
+    font-family: Poppins;
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.company-banner .subtitle{
+
+    font-family: Poppins;
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+}
+@media  screen and (max-width:767px) {
+
+    .company-banner .title{
+        font-family: Poppins;
+        line-height: 25px;
+        font-weight: 700;
+        font-style: normal;
+        color: #ffffff;
+        font-size: 18px;
+    }
+    
+    .company-banner .subtitle{
+    
+        font-family: Poppins;
+        line-height: 23px;
+        font-weight: 400;
+        font-style: normal;
+        color: #ffffff;
+        font-size: 15px;
+    }
+    
+}
+.com-sec1{
+margin: 70 0 0 0;
+}
+.com-sec1 .text{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: left;
+}
+#text {display: none;}
+
+#toggle{
+    color:blue;
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    border-radius: 6px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: inset 0px 1px 0px 0px #fff6af;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-shadow: 0px 1px 0px #ffee66;
+    text-transform: none;
+    letter-spacing: normal;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.com-sec1 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    margin: 20 0 20 0;
+    text-align: center;
+}
+.com-sec2{
+    margin: 70 0 0 0;
+}
+.com-sec2 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    text-align: center;
+    margin: 20 0 20 0;
+}
+.com-sec2 h6{
+    font-size: 16px;
+    color: #181616;
+    line-height: 26px;
+    text-align: left;
+    font-weight: 500;
+}
+.com-sec2 h3{
+    font-size: 30px;
+    color: #181616;
+    line-height: 36px;
+    text-align: left;
+    font-weight: 700;
+    margin: 0 0 20 0;
+}
+.com-sec2 h4{
+    font-size: 17px;
+    color: #030712;
+    line-height: 26px;
+    text-align: left;
+    font-weight: 600;
+
+}
+.com-sec2 p{
+    
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+
+.com-ban2{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 40px !important;
+    padding-bottom: 55px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding-top: 40px !important;
+    padding-bottom: 55px !important;
+    background-image: url(../../images/2018/07/About-CallToAction-Background-Image.jpg);
+    width: 100%;
+    min-height: 369px;
+    height: auto;
+
+}
+
+.com-ban2 h3{
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 41px;
+    text-align: left;
+    font-weight: 700;
+    margin: 30 0 0 0;
+}
+.com-ban2 p{
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 26px;
+    text-align: left;
+    font-weight: 500;
+    font-family: 'rubik';
+}
+.com-ban2 a{
+    background-color: #0abc5f !important;
+  
+    color: #ffffff !important;
+
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 15px;
+   
+    padding-top: 15px !important;
+    padding-right: 35px !important;
+    padding-bottom: 15px !important;
+    padding-left: 35px !important;
+    border-radius: 5px;
+
+}
+.com-ban2 .btn{
+justify-content: center;
+margin: 30 0 0 0;
+padding: 50 0 50 0;
+transition: ease-in-out .6s;
+}
+.com-ban2 .btn:hover{
+    
+    padding: 40 0 50 0;
+    transition: ease-in-out .6s;
+    }
+@media screen and (max-width:1024px) {
+    .com-ban2 a{
+        background-color: #0abc5f !important;
+      
+        color: #ffffff !important;
+    
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 12px;
+       
+        padding-top: 15px !important;
+        padding-right: 25px !important;
+        padding-bottom: 15px !important;
+        padding-left: 25px !important;
+        border-radius: 5px;
+    
+    }
+    
+}
+.com-ban2:hover .img-anim{
+   height: auto;
+   text-align: center;
+max-width: 100%;
+   }
+
+   .dir{
+       margin: 70 0 0 0;
+   }
+
+.dir h6{
+    font-size: 16px;
+    color: #181616;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500;
+}
+.dir h2{
+    font-size: 25px;
+    color: #181616;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+.dir img{
+    margin: 40 0 0 0;
+}
+.dir p{
+    margin: 20 0 40 0;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: justify;
+}
+.com-last{
+    background-color: #f6f7fd !important;
+    width: 100%;
+    height: auto;
+    padding: 40 0 40 0;
+}
+
+.com-last h2{
+    font-size: 25px;
+    color: #181616;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20 0 40 0;
+}
+.com-last .com-tile{
+   
+    border-bottom-width: 4px !important;
+    padding-top: 40px !important;
+    padding-right: 30px !important;
+    padding-bottom: 60px !important;
+    padding-left: 30px !important;
+    background-color: #ffffff !important;
+    border-bottom-color: #0a8aff !important;
+    border-bottom-style: solid !important;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    height: 100%;
+    
+   
+}
+
+.com-tile:hover{
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 70%);
+    
+}
+
+.com-last img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.com-last p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* team page css */
+
+.team-ban{
+    background: url(../../images/2020/06/pngtree-blue-minimalist-flat-information-security-banner-background-image_260795.jpg);
+    width: 100%;
+    height:  auto ;
+    min-height: 300px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding: 60 0 60 0;
+}
+.team-ban p{
+
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+  
+}
+.team-sec1{
+    margin: 40 0 40 0;
+}
+
+.team-sec1 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: justify;
+  margin: 80 0 0 0;
+}
+.team-sec1 img{
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.team-sec2{
+  background: url(../../images/2018/07/About-Best-Background-Image.jpg);
+  width: 100%;
+  height: auto;
+  min-height: 380px;
+padding: 100 0 50 0;
+}
+.team-sec2 h6{
+   
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500;
+}
+.team-sec2 h2{
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 41px;
+    text-align: center;
+    font-weight: 700;
+}
+.team-sec3{
+    margin: 70 0 70 0;
+}
+
+.team-sec3 .sec3-tile{
+    padding: 28px 30px 28px 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    text-align: inherit;
+    height: 100%;
+}
+.team-sec3 .sec3-tile:hover{
+    padding: 28px 30px 28px 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 30%);
+    text-align: inherit;
+    height: 100%;
+}
+
+
+
+.team-sec3 .title{
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: inherit;
+    font-family: 'Rubik';
+    color: #212d31;
+}
+.team-sec3 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    padding: 10 0 0 0;
+}
+.team-sec3 img{
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    vertical-align: top;
+    width:auto;
+ 
+}
+
+.team-sec4{
+    justify-content: center;
+    margin:40 0 40 0;
+}
+.team-sec4 h3{
+    font-size: 35px;
+    color: #181616;
+    line-height: 41px;
+    text-align: center;
+    font-weight: 700;
+}
+.team-sec4 p{
+    font-size: 18px;
+    color: #1e73be;
+    line-height: 26px;
+    text-align: left;
+    font-weight: 500;
+  }
+.team-sec4 .fea{
+    margin: 40 0 70 70;
+}
+@media screen and (max-width:767px) {
+    .team-sec4 .fea{
+        margin: 40 0 70 0;
+    }
+    .team-sec4 p{
+        font-size: 18px;
+        color: #1e73be;
+        line-height: 26px;
+        text-align: center;
+        font-weight: 500;
+      }
+}
+.team-last{
+    justify-content: center;
+    margin: 0 0 30 0;
+}
+.team-last img{
+
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+    text-align: center;
+}
+.team-last .mid{
+    text-align: center;
+}
+.team-last h3{
+    font-size: 20px;
+    color: #030712;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* career page css */
+
+.car-ban{
+    background: url(../../images/2020/06/banner1-1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    min-height: 300px;
+    
+}
+.car-ban h3{
+
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding: 70 0 0 0;
+}
+.car-ban p{
+ 
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+.car-sec1{
+    margin: 40 0 40 0;
+}
+.car-sec1 h5{
+    font-weight: 700;
+    font-size: 25px;
+    color: #181616;
+    line-height: 36px;
+    text-align: center;
+}
+.car-sec1 img{
+    
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+.car-sec1 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: justify;
+}
+.car-sec1 .frame{
+    margin-top: 0px !important;
+    margin-bottom: 40px !important;
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+    background-color: #f0f0f0 !important;
+    width: 100%;
+    height: auto;
+ 
+}
+
+.car-sec1 .frame-in{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    padding-top: 12px !important;
+    padding-right: 10px !important;
+    padding-bottom: 15px !important;
+    padding-left: 10px !important;
+    border-right-color: #f0f0f0 !important;
+    border-right-style: solid !important;
+    border-bottom-color: #f0f0f0 !important;
+    border-bottom-style: solid !important;
+    background: #ffffff;
+    text-align: center  ;
+    display: table;
+}
+.frame-in p{
+    text-decoration: none;
+    font-size: 15px;
+    color: #030712;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500;
+    visibility: inherit!important;
+
+}
+.frame-in a{
+    text-decoration: none;
+}
+
+.frame h3{
+    font-size: 22px;
+    color: #181616;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sr h5{
+    font-size: 25px;
+    color: #181616;
+    line-height: 41px;
+    text-align: center;
+    font-weight: 700;
+    margin: 40 0 40 0;
+}
+.sr img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+.sr p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: center;
+}

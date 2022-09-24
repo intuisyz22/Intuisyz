@@ -1,0 +1,836 @@
+
+.port_dm_ban{
+    background: url(../../images/2020/06/slide1_12-1.jpg);
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+    min-height: 300px;
+    width: 100%;
+text-align: center;
+padding: 60 0 30 0;
+}
+.port_dm_ban h1{
+ 
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.port_dm_ban p{
+    
+
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+}
+.port_dm_ban a{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, #fe576b 0%, #ff9b66 100%);
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    transition: all 0.3s ease-in-out !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    margin-top: 10px ;
+    margin-right: 15px !important;
+    margin-bottom: 10px !important;
+    padding-top: 12px !important;
+    padding-right: 40px !important;
+    padding-bottom: 13px !important;
+    padding-left: 40px !important;
+    border-radius: 4px !important;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'rubik';
+    
+}
+.port_dm_ban a:hover{
+    background: linear-gradient(to right, #ff9b66 0%, #fe576b 100%);
+    color: #ffffff;
+    margin-top: 3px;
+}
+.pdm-sec2{
+    margin: 40 0 40 0 ;
+}
+.pdm-sec2 .p-tile{
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    padding: 20 20 20 20;
+    height: 100%;
+     transition: ease-in-out .3s;   
+ 
+}
+
+.pdm-sec2 .p-tile:hover{
+   
+    box-shadow: 0px 0px 25px rgb(26 9 179 / 40%);
+     
+}
+.p-tile img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+
+}
+.p-tile h5{
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+    text-align: left;
+}
+.p-tile p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: left;
+}
+.p-tile .pad{
+    padding: 10 10 0 10;
+}
+.dee-flex{
+    text-align: center;
+    justify-content: center;
+    margin: 0  0 40 0;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 767px){
+    .dee-flex{
+        text-align: center;
+        justify-content: center;
+        margin: 0  0 40 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0 60 0 60;
+    }
+}
+.d-flex img{
+height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.pdm-sec3{
+    margin: 40 0 40 0;
+    justify-content: center;
+    text-align: center;
+}
+.but-a{
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px #666666 solid;
+    color: #666666;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: ease-in-out .3s;
+}
+.but-a:hover{
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px #666666 solid;
+    color: #666666;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.pdm-sec3 h4{
+   margin: 50 0 50 0;
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 22px;
+}
+.pdm-sec3 .sqr{
+    box-sizing: border-box;
+    padding: 30;
+    width: 100%;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    height: 100%;
+}
+.pdm-sec3 .sqr:hover{
+    box-sizing: border-box;
+    padding: 30;
+    width: 100%;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 30%);
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    height: 100%;
+}
+.pdm-sec3 h3{
+
+    line-height: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 22px;
+}
+.pdm-sec3 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+
+.sqr-a{
+    margin: 20 0 0 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px #666666 solid;
+    color: #666666;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: ease-in-out .3s;
+}
+.sqr-a:hover{
+    margin: 20 0 0 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px #666666 solid;
+    color: #666666;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.sqr ul li{
+    list-style: none;
+    text-align: left !important;
+}
+
+.sqr ul{
+    text-align: left;
+}
+.pdm-last{
+    margin: 40 0 40 0;
+    justify-content: center;
+    text-align: center;
+}
+.pdm-last h2{
+    line-height: 40px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 30px;
+}
+.pdm-last img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.pdm-last p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+.logo-ban{
+    background: url(../../images/2018/07/Blog-Banner-Background-Image.png);
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+    text-align: center;
+    padding: 60 0 30 0;
+}
+.logo-ban h2{
+   
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.logo-sec{
+    margin: 40 0 40 0;
+ 
+}
+    .logo-sec h3{
+        line-height: 40px;
+        letter-spacing: -1px;
+        font-weight: 700;
+        font-style: normal;
+        color: #212d31;
+        font-size: 30px;
+        text-align: left;
+    }
+    .logo-sec a{
+        line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #09276f;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+    }
+    .logo-sec .line{
+        height: 3px;
+    border-top: 2px solid #ebebeb;
+    display: block;
+ 
+    width: 100%;
+    }
+    .logo-tile{
+        padding: 30;
+    background-color: #fff;
+    box-shadow: 0px 0px 29px rgb(0 0 0 / 10%);
+    text-align: center;
+    height: 100%;
+    }
+    .logo-tile img{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        border: 0;
+        width: auto;
+        text-align: center;
+    }
+    .logo-ban p{
+        line-height: 29px;
+        font-weight: 400;
+        font-style: normal;
+        color: #ffffff !important;
+        font-size: 18px;
+    
+    }
+ .tile-img{
+    padding: 30;
+    background-color: #fff;
+    box-shadow: 0px 0px 29px rgb(0 0 0 / 10%);
+    text-align: center;
+    height: 100%;
+ }
+ .tile-img img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    width: auto;
+    text-align: center;
+    transition: ease-in-out .3s;
+    
+ }
+ .tile-img img:hover{
+transform: scale(1.05);
+ }
+ .tile-img p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: left;
+    margin: 5 0 0 0;
+ }
+ .adv-sec{
+    margin: 40 0 40 0;
+ }
+ .adv-ban{
+    background: url(../../images/2020/06/ARCON-Remote-Access-Whitepapper-banner.jpg);
+
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+    text-align: center;
+    padding: 50 20 50 20;
+ }
+ .adv-ban h2{
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 35px;
+ }
+ .adv-sec p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    padding: 20 0 0 0;
+ }
+ .adv-sec span{
+    font-size: 12px;
+    text-align: left;
+    float: right;
+ }
+
+ 
+ .adv-sec a{
+    line-height: 26px;
+font-weight: 400;
+font-style: normal;
+color: #09276f;
+font-size: 15px;
+cursor: pointer;
+text-decoration: none;
+float: right;
+}
+.adv-sec .line{
+    height: 3px;
+border-top: 2px solid #ebebeb;
+display: block;
+
+width: 100%;
+}
+.img-back{
+    padding: 20;
+    background-color: #fff;
+    box-shadow: 0px 0px 29px rgb(0 0 0 / 10%);
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+.img-back img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    width: auto;
+    text-align: center;
+    transition: ease-in-out .3s;
+    opacity: 1;
+    display: block;
+
+
+    backface-visibility: hidden;
+}
+
+ .img-back img:hover{
+transform: scale(1.05);
+
+
+
+ }
+
+ 
+
+  
+  .middle {
+    transition: .5s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(219,127,8,1);
+width: 100%;
+  }
+  
+
+  .img-back:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+   
+    color: white;
+    font-size: 16px;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+  }
+  .img-down{
+
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+    text-align: center;
+    margin: 10 0 0 0;
+  }
+  .subp{
+    text-align: center;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+  }
+  .subh1{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 30;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    overflow-y: scroll;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding:5px;
+    background: #000000;
+    display: block;
+    width: 80%;
+    position: relative;
+ 
+  }
+  
+  .popup h2 {
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 22px;
+  }
+  .popup .p{
+
+    color: #ffffff;
+    
+    font-weight: 500;
+    text-align: left;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 100%;
+    }
+  }
+  .modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+.desyn-ban{
+    background: url(../../images/2020/06/Web-Design.jpg);
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+    text-align: center;
+ padding: 50 0 50 0;
+}
+.desyn-ban h1{
+    text-transform: capitalize;
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.desyn-sec1{
+    margin: 40 0 40 0;
+}
+.desyn-sec1 h1{
+    color: #000000;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 26px;
+}
+.desyn-sec1 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+/*.gallery*/
+.gallery{
+	width: 100%;
+	display: block;
+	min-height: 100vh;
+
+	padding: 100px 0;
+}
+.gallery .gallery-filter{
+	
+	width: 100%;
+	text-align: center;
+   
+    display: flex !important;
+    flex-direction: column !important;
+
+}
+
+
+.gallery .gallery-filter .filter-item{
+	position: relative;
+    display: block;
+    margin: 0;
+    padding: 23px 40px 22px 40px;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    line-height: 26px;
+    font-family: 'Rubik';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    line-height: 26px;
+    cursor: pointer;
+    border-top: 1px #d7d7d7 solid !important;
+    border-left: 1px #d7d7d7 solid !important;
+    border-right: 1px #d7d7d7 solid !important;
+}
+.gallery .gallery-filter .filter-item.active{
+	color: #0abc5f;
+    background-color: #282828;
+	width: 100%;
+    position: relative;
+    text-align: justify;
+    padding: 23 15 23 15;
+    transition:padding ease-in-out .3s;
+  
+}
+	
+.gallery .gallery-filter .filter-item.active::before{
+	content: "";
+  position: absolute;
+  right: -10px;
+  transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+  width: 0;
+  top:15;
+  height: 0;
+  border-left: 20px solid #282828;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.gallery .gallery-item{
+	width: calc(100% / 3);
+	padding: 15px;
+    
+
+}
+.gallery .gallery-item-inner{
+    box-sizing: border-box;
+    padding: 15 10 15 10;
+    width: 100%;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease-in-out;
+    background-color: #f2f2f2;
+    min-height:350px;
+    height: auto;
+}
+.gallery .gallery-item.show{
+	animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.gallery .gallery-item.hide{
+	display: none;
+}
+
+/*responsive*/
+@media(max-width: 491px){
+	.gallery .gallery-item{
+		width: 50%;
+	}
+}
+@media(max-width: 467px){
+    .gallery .gallery-item{
+		width: 100%;
+	}
+	.gallery .gallery-filter .filter-item{
+		margin-bottom: 10px;
+	}
+}
+.gallery-item-inner p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+
+.desyn-sec2{
+    background-color: #fff !important;
+    width: 100%;
+    height: auto;
+    margin: 40 0 0 0;
+    padding: 20 0 20 0;
+    text-align: center  ;
+}
+.desyn-sec2 h2{
+    line-height: 40px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 30px;
+}
+.desyn-sec2 .line{
+    height: 1px;
+    border-top: 1px solid #ebebeb;
+    display: block;
+    position: relative;
+    top: 1px;
+    width: 100%;
+}
+.desyn-sec2 .tit{
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+.desyn-sec2 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.port-cat{
+    background: url(../../images/2020/06/portfoliobanner.jpg);
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+    text-align: center;
+ padding: 70;
+ 
+}
+.port-cat h2{
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.port-cat p{
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+}

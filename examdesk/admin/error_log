@@ -1,0 +1,33 @@
+[30-Apr-2021 17:33:06 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/Include/header.php on line 105
+[30-Apr-2021 17:33:06 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/Include/header.php on line 112
+[30-Apr-2021 17:33:06 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/Include/sidebar_super.php on line 20
+[30-Apr-2021 17:33:24 Asia/Bangkok] PHP Notice:  Undefined variable: answer_details in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/view_result.php on line 239
+[30-Apr-2021 17:33:24 Asia/Bangkok] PHP Notice:  Trying to get property 'total_time_of_exam' of non-object in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/view_result.php on line 239
+[30-Apr-2021 17:33:24 Asia/Bangkok] PHP Notice:  Undefined variable: time_spend in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/view_result.php on line 239
+[30-Apr-2021 17:33:24 Asia/Bangkok] PHP Warning:  Division by zero in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/view_result.php on line 239
+[30-Apr-2021 17:33:24 Asia/Bangkok] PHP Notice:  Undefined variable: rank_list in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/view_result.php on line 258
+[30-Apr-2021 17:33:24 Asia/Bangkok] PHP Notice:  Trying to get property 'answer_id' of non-object in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/view_result.php on line 258
+[30-Apr-2021 17:33:45 Asia/Bangkok] PHP Notice:  Undefined variable: subcourse_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 52
+[30-Apr-2021 17:33:45 Asia/Bangkok] PHP Notice:  Undefined variable: course_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 52
+[30-Apr-2021 17:33:45 Asia/Bangkok] PHP Notice:  Undefined variable: course_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 120
+[30-Apr-2021 17:33:45 Asia/Bangkok] PHP Notice:  Undefined variable: subcourse_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 122
+[30-Apr-2021 17:33:45 Asia/Bangkok] PHP Notice:  Undefined variable: subject_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 124
+[30-Apr-2021 17:34:14 Asia/Bangkok] PHP Notice:  Undefined variable: subcourse_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 52
+[30-Apr-2021 17:34:14 Asia/Bangkok] PHP Notice:  Undefined variable: course_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 52
+[30-Apr-2021 17:34:14 Asia/Bangkok] PHP Notice:  Undefined variable: course_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 120
+[30-Apr-2021 17:34:14 Asia/Bangkok] PHP Notice:  Undefined variable: subcourse_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 122
+[30-Apr-2021 17:34:14 Asia/Bangkok] PHP Notice:  Undefined variable: subject_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/qpaper_view.php on line 124
+[30-Apr-2021 17:34:42 Asia/Bangkok] PHP Notice:  Undefined variable: msgType in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/question.php on line 234
+[30-Apr-2021 17:34:42 Asia/Bangkok] PHP Notice:  Undefined variable: course_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/question.php on line 265
+[30-Apr-2021 17:34:42 Asia/Bangkok] PHP Notice:  Undefined variable: subcourse_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/question.php on line 267
+[30-Apr-2021 17:34:42 Asia/Bangkok] PHP Notice:  Undefined variable: subject_id in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/question.php on line 269
+[01-May-2021 10:56:38 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/Include/header.php on line 105
+[01-May-2021 10:56:38 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/Include/header.php on line 112
+[01-May-2021 10:56:38 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/testfolder/examdesk/admin/Include/sidebar_super.php on line 20
+[05-May-2021 12:11:29 Asia/Bangkok] PHP Notice:  Undefined offset: 4 in /home/detabbxlo4s5/public_html/intuisyz.com/examdesk/admin/Include/sidebar_super.php on line 9
+[05-May-2021 12:12:53 Asia/Bangkok] PHP Notice:  Undefined offset: 4 in /home/detabbxlo4s5/public_html/intuisyz.com/examdesk/admin/Include/sidebar_super.php on line 9
+[05-May-2021 12:12:58 Asia/Bangkok] PHP Notice:  Undefined offset: 4 in /home/detabbxlo4s5/public_html/intuisyz.com/examdesk/admin/Include/sidebar_super.php on line 9
+[05-May-2021 12:15:31 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/examdesk/admin/Include/header.php on line 105
+[05-May-2021 12:15:31 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/examdesk/admin/Include/header.php on line 112
+[05-May-2021 12:15:31 Asia/Bangkok] PHP Notice:  Undefined offset: 4 in /home/detabbxlo4s5/public_html/intuisyz.com/examdesk/admin/Include/sidebar_super.php on line 9
+[05-May-2021 12:15:31 Asia/Bangkok] PHP Notice:  Undefined index: email in /home/detabbxlo4s5/public_html/intuisyz.com/examdesk/admin/Include/sidebar_super.php on line 20

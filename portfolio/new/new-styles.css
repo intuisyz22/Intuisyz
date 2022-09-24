@@ -1,0 +1,309 @@
+.spc-2
+{
+    height: 30px !important;
+}
+.erp-pricing
+{
+    background: url("../portfolioimages/portfolio-erp/pricing-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+}
+.erp-pricing1
+{
+    background: url("../portfolioimages/portfolio-web-designing/vbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+}
+.sub-blue
+{
+    color: #69BBE4 !important;
+}
+.prc-fnt
+{
+    color:white !important;
+    font-size: 44px !important;
+    font-weight: normal !important;
+}
+.erp-inr
+{
+    color: white !important;
+    font-size: 16px !important;
+}
+.erp-hr-mngmnt
+{
+    background-image: url("../portfolioimages/portfolio-erp/erp-hr-management.png");
+    background-repeat: no-repeat;
+    padding-left: 60px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 25px !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+.list-dot
+{
+    list-style-image: url("../portfolioimages/portfolio-erp/list-dot.png");
+    color: #4571A0 !important;
+    font-size: 14px !important;
+    padding-bottom: 12px !important;
+}
+.erp-list
+{
+    padding-left: 15px !important;
+    padding-top: 10px !important;
+}
+.erp-p
+{
+    font-size: 14px;
+    font-weight: normal !important;
+}
+.erp-blog
+{
+    border-bottom: 1px solid #edecec;
+    padding-bottom: 10px !important;
+}
+.case-study-bnr
+{
+    background-image: url("../portfolioimages/portfolio-erp/case-study-banner.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+}
+.case-study-h1
+{
+    color: white; !important;
+    font-size: 42px !important;
+    font-weight: bold !important;
+}
+.case-study-p
+{
+    color: white !important;
+    line-height: 1.8 !important;
+    text-align: justify;
+}
+.case-study-p2
+{
+    font-size: 13px !important;
+}
+.erp-button
+{
+    padding: 10px 22px 10px 22px!important;
+    font-weight: bold;
+    font-size: 16px !important;
+    background: #E9ECF1 !important;
+}
+.spc-3
+{
+    height: 20px !important;
+}
+
+
+
+
+
+/* portfolio mobile application css starts here */
+.prtfl-tile1
+{
+    padding-left: 0px !important;
+}
+.prtfl-tile2
+{
+    padding-left: 0px !important;
+}
+.prtfl-tile3
+{
+    padding-left: 0px !important;
+}
+.mobile-app-bnr
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/banner1.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+}
+.mbl-app-h2
+{
+    color: white !important;
+    font-size: 24px !important;
+    font-weight: bold;
+}
+.mbl-app-subtitile
+{
+    color: #00FFFD !important;
+    font-size: 26px !important;
+    font-weight: normal !important;
+}
+.mobile-app-bnr2
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/banner2.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+}
+.txt-25
+{
+    color: #8CFFD0 !important;
+    font-size: 55px !important;
+    font-weight: bold !important;
+}
+.mbl-app-subtitile2
+{
+    color: #00FFFD !important;
+    font-size: 26px !important;
+    font-weight: normal !important;
+    padding-top: 25px !important;
+}
+.new-hvr
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-1.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 133px !important;
+
+}
+.new-hvr:hover
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-1-hvr.jpg");
+}
+.new-hvr2
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-2.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 133px !important;
+
+}
+.new-hvr2:hover
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-2-hvr.jpg");
+}
+.new-hvr3
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-3.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 133px !important;
+
+}
+.new-hvr3:hover
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-3-hvr.jpg");
+}
+.new-hvr4
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-4.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 133px !important;
+
+}
+.new-hvr4:hover
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-4hover.jpg");
+}
+.new-hvr5
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-5.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 133px !important;
+
+}
+.new-hvr5:hover
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-5hvr.jpg");
+}
+.new-hvr6
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-6hvr.jpg");
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding: 133px !important;
+
+}
+.new-hvr6:hover
+{
+    background-image: url("../portfolioimages/portfolio-mobileapplication/tile-6.jpg");
+}
+.pd-left
+{
+    padding-left: 0px !important;
+}
+/* portfolio mobile application css end */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 320px) {
+    .erp-hr-mngmnt {
+        background-image: url("../portfolioimages/portfolio-erp/erp-hr-management.png");
+        background-repeat: no-repeat;
+        padding-left: 50px !important;
+        padding-bottom: 12px !important;
+        margin-bottom: 25px !important;
+        font-size: 16px !important;
+        padding-top: 12px !important;
+    }
+    .case-study-h1
+    {
+        color: white; !important;
+        font-size: 36px !important;
+        font-weight: bold !important;
+    }
+    .prtfl-tile1
+    {
+        padding-left: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .prtfl-tile2
+    {
+        padding-left: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .prtfl-tile3
+    {
+        padding-left: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .pd-left
+    {
+        padding-left: 15px !important;
+    }
+    .new-hvr
+    {
+        background-image: url("../portfolioimages/portfolio-mobileapplication/tile-1.jpg");
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+        padding: 95px !important;
+
+    }
+    .new-hvr:hover
+    {
+        background-image: url("../portfolioimages/portfolio-mobileapplication/tile-1-hvr.jpg");
+    }
+    .new-hvr2
+    {
+        background-image: url("../portfolioimages/portfolio-mobileapplication/tile-2.jpg");
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+        padding: 95px !important;
+
+    }
+    .new-hvr2:hover
+    {
+        background-image: url("../portfolioimages/portfolio-mobileapplication/tile-2-hvr.jpg");
+    }
+    .new-hvr3
+    {
+        background-image: url("../portfolioimages/portfolio-mobileapplication/tile-3.jpg");
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat;
+        padding: 95px !important;
+
+    }
+    .new-hvr3:hover
+    {
+        background-image: url("../portfolioimages/portfolio-mobileapplication/tile-3-hvr.jpg");
+    }
+}

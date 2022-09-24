@@ -1,0 +1,564 @@
+/* style created by Jerin sam - intuisyz*/
+/* style added for left panel tabs */
+.tabs-left, .tabs-right {
+    border-bottom: none;
+    padding-top: 2px;
+}
+.tabs-left {
+    /*border-right: 1px solid #ddd;*/
+}
+.tabs-right {
+    border-left: 1px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+    float: none;
+    margin-bottom: 2px;
+
+}
+.tabs-left>li {
+    margin-right: 0;
+    width: 100% !important;
+}
+.tabs-right>li {
+    margin-left: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+    border-bottom-color: #ddd;
+    border-right-color: transparent;
+}
+
+.tabs-right>li.active>a,
+.tabs-right>li.active>a:hover,
+.tabs-right>li.active>a:focus {
+    border-bottom: 1px solid #ddd;
+    border-left-color: transparent;
+}
+.tabs-left>li>a {
+    border-radius: 4px 0 0 4px;
+    margin-right: 0;
+    display:block;
+}
+.tabs-right>li>a {
+    border-radius: 0 4px 4px 0;
+    margin-right: 0;
+}
+.sideways {
+    margin-top:50px;
+    border: none;
+    position: relative;
+}
+.sideways>li {
+    height: 20px;
+    width: 120px;
+    margin-bottom: 100px;
+}
+.sideways>li>a {
+    border-bottom: 1px solid #ddd;
+    border-right-color: transparent;
+    text-align: center;
+    border-radius: 4px 4px 0px 0px;
+}
+.sideways>li.active>a,
+.sideways>li.active>a:hover,
+.sideways>li.active>a:focus {
+    border-bottom-color: transparent;
+    border-right-color: #ddd;
+    border-left-color: #ddd;
+}
+.sideways.tabs-left {
+    left: -50px;
+}
+.sideways.tabs-right {
+    right: -50px;
+}
+.sideways.tabs-right>li {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.sideways.tabs-left>li {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.ctgry-head
+{
+    font-weight: bold !important;
+    color: whitesmoke !important;
+    background-color: #3c3c3c !important;
+    padding: 10px 0 10px 15px !important;
+    font-size: 16px !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    color: #191919 !important;
+    font-size: 13px !important;
+    border: 0 !important;
+    background-color: #c6c6c6 !important;
+}
+
+
+.nav-tabs > li > a
+{
+    color: black !important;
+    font-weight: 600 !important;
+    border-bottom: 1px solid gainsboro !important;
+}
+
+.nav-tabs > li.active
+{
+background-color: #c6c6c6 !important;
+}
+.wdp-img-border
+{
+    border: 1px solid #e6e6e6 !important;
+    /*width: 100% !important;
+    height:100% !important;*/
+}
+.l-r-pdng-0
+{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.wdp-col-pading
+{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+.consulting-sec
+{
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+    background-color: #ebebeb !important;
+}
+.tab-panel-sec
+{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.tab-panel-sec hr
+{
+    padding: 1px;
+    margin: 5px 0 30px 0 !important;
+    background: #dddcdc;
+}
+
+.consult-span
+{
+    width: 20% !important;
+    float:left !important;
+    text-transform: uppercase !important;
+    padding: 22px 12px 22px 12px !important;
+    background-color: transparent !important;
+    color: #4a4a4a !important;
+    font-size: 14px !important;
+    height: 165px !important;
+}
+.consult-span:hover
+{
+    width: 20% !important;
+    float:left !important;
+    text-transform: uppercase !important;
+    padding: 22px 12px 22px 12px !important;
+    background-color: rgba(135, 137, 233, 0.17) !important;
+    transition-duration: .7s !important;
+}
+.consult-img
+{
+    width:100% !important;
+    height: 100% !important;
+}
+.cnslt-hd
+{
+    font-size: 28px !important;
+}
+.cnsltng-text
+{
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600 !important;
+    line-height:1.5 !important;
+}
+.cnstng-img {
+    height: 55px !important;
+}
+.col-border-right-bottom
+{
+    border-right: 1px solid #d9d9d9 !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+}
+.col-border-bottom
+{
+    border-bottom: 1px solid #d9d9d9 !important;
+}
+.col-boder-right
+{
+    border-right: 1px solid #d9d9d9 !important;
+}
+.pr-text
+{
+    font-size: 14px !important;
+    font-weight: bold !important;
+    padding-right: 20px !important;
+}
+.pr-small-text
+{
+    font-size: 12px !important;
+}
+.pr-sub-text
+{
+    font-size: 11px !important;
+    padding-right: 15px !important;
+}
+.pnl-main
+{
+    padding-left: 30px !important;
+}
+.pnl-cntnt
+{
+    padding-right: 0 !important;
+}
+.pg-main-titile
+{
+    font-size: 26px !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.back-link
+{
+    font-size: 16px !important;
+    text-align: right !important;
+    padding-top: 18px !important;
+    color: #2a6496 !important;
+    text-decoration: underline !important;
+}
+.logo-col
+{
+    margin-bottom: 30px !important;
+    padding-top: 20px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-bottom: 0 !important;
+}
+.logo-border
+{
+    border-right: 1px solid rgba(220, 220, 220, 0.63) !important;
+}
+.logo-line
+{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+.wd-main-titile
+{
+    font-size: 28px !important;
+    color: #333333 !important;
+    padding-top: 35px !important;
+    padding-bottom: 15px !important;
+}
+.sb-mnu
+{
+    padding-left: 15px !important;
+}
+
+
+/* style for image hover effect start */
+.btn01 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /*-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);*/
+}
+.btn01 img {
+    position: relative;
+    /*width: 100%;*/
+    top: 0;
+    left: 0;
+}
+.btn01 .ovrly {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.btn01 .buttons {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btn01 .buttons .fa {
+    margin: 0 1px;
+    background: rgb(256, 256, 256);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+.btn01:hover .buttons {
+    top: 50%;
+}
+.btn01:hover .ovrly {
+    top: 0;
+}
+/* style for image hover effect end */
+
+
+
+
+
+/* styles for digital marketing portfolio start */
+.dm-main-titile
+{
+    font-size: 28px !important;
+    color: #333333 !important;
+    padding-top: 35px !important;
+    padding-bottom: 15px !important;
+}
+.dm-sendrqst-btn
+{
+    font-size: 14px !important;
+    padding: 5px 15px !important;
+    color: white !important;
+}
+.dm-sendrqst-btn:hover
+{
+    font-size: 14px !important;
+    padding: 5px 15px !important;
+    color: white !important;
+}
+.nazriya
+{
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+.vm-btn
+{
+    border: 1px solid black !important;
+}
+.vm-btn:hover
+{
+    border: 1px solid #208fc3 !important;
+}
+.dm-titile-sub
+{
+    font-size: 28px !important;
+    color: #333333 !important;
+    padding-bottom: 10px !important;
+}
+.digital-marketing-hr
+{
+
+    border-bottom: 2px solid #ececec !important;
+    padding: 0 !important;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    height:5px !important;
+}
+.portfolio-col
+{
+    background-color: white !important;
+    padding-top: 0 !important;
+    margin-bottom: 15px !important;
+    font-weight: 400 !important;
+}
+.portfolio-col:hover
+{
+    background-color: #e4e4e4 !important;
+    padding-top: 0 !important;
+    margin-bottom: 15px !important;
+    cursor: pointer !important;
+}
+.portfolio-title
+{
+    padding-top: 7px !important;
+    font-weight: 600 !important;
+    color: #303030 !important;
+}
+
+.portfolio-col:hover .portfolio-title
+
+{
+    font-weight: 600 !important;
+    padding-left: 15px !important;
+    transition-duration: .4s !important;
+}
+.portfolio-col:hover img
+{
+    /*opacity: .8 !important;*/
+    transition-duration: .4s !important;
+}
+.cntrl-col-font
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 20px !important;
+}
+.digi-trat
+{
+    font-size: 16px !important;
+}
+.spce-19
+{
+    height: 19px !important;
+}
+ul.digital-traffic li p
+{
+    font-weight: 400 !important;
+}
+.dm-pop
+{
+    width: 50% !important;
+    max-width: 600px !important;
+}
+/* styles for digital marketing portfolio end */
+
+
+
+
+
+@media (max-width: 768px) {
+    .consult-span
+    {
+        width: 100% !important;
+        float:left !important;
+        text-transform: uppercase !important;
+        padding: 22px 12px 22px 12px !important;
+        background-color: transparent !important;
+        color: #4a4a4a !important;
+        font-size: 14px !important;
+        height: auto !important;
+    }
+    .consult-span:hover
+    {
+        width: 100% !important;
+        float:left !important;
+        text-transform: uppercase !important;
+        padding: 22px 12px 22px 12px !important;
+        background-color: rgba(135, 137, 233, 0.17) !important;
+        color: #4a4a4a !important;
+        font-size: 14px !important;
+        height: auto !important;
+    }
+
+    .pr-sub-text
+    {
+        font-size: 11px !important;
+        padding-right: 10px !important;
+    }
+    .pr-text
+    {
+        font-size: 13px !important;
+        font-weight: bold !important;
+        padding-right: 10px !important;
+    }
+    .pnl-main
+    {
+        padding-left: 15px !important;
+    }
+    .pnl-cntnt
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-top: 20px !important;
+    }
+    .col-border-right-bottom
+    {
+        border-right: 0 !important;
+        border-bottom: 1px solid #d9d9d9 !important;
+    }
+    .col-boder-right
+    {
+        border-bottom: 1px solid #d9d9d9 !important;
+        border-right: 0 !important;
+    }
+    .xs-padding-none
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .border-none
+    {
+        border:none !important;
+    }
+    .clg
+    {
+        padding-top: 50px !important;
+        text-align: center !important;
+        border: none !important;
+    }
+    .customers-logo li
+    {
+        padding: 0 17px !important;
+        background: #f1f1f1;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .nazriya-li
+    {
+        
+    }
+    .nazriya-img
+    {
+        margin: auto !important;
+    }
+    .dm-pop
+    {
+        width: 90% !important;
+        max-width: 600px !important;
+    }
+    .dm-pop-content
+    {
+        height: 230px !important;
+        overflow: scroll !important;
+    }
+    .popup
+    {
+        padding: 30px 20px !important;
+    }
+    .logo-border
+    {
+        border-right: 0 !important;
+    }
+    .logo-dsgn-spc
+    {
+        padding-bottom: 20px !important;
+    }
+    .sb-mnu
+    {
+        padding-left: 0 !important;
+    }
+}
+

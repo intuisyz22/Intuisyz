@@ -1,0 +1,98 @@
+.sec1
+{
+    background-color: #f5f5f5;
+    padding: 20px 2px ;
+}
+.sendrequest
+{
+    background-color: #f8c930;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    border: 0;
+}
+.viewcasestudy
+{
+    background-color: #f8c930;
+    text-transform: uppercase;
+    padding: 10px;
+    color: black;
+    border: 0;
+}
+.showmore
+{
+    padding: 8px 30px;
+    background: none;
+    border: 1px solid black;
+    color: black;
+}
+.showmore a
+{
+    color: black!important;
+}
+.showmore1
+{
+    padding: 6px 20px;
+    background: none;
+}
+.customers-logo {
+
+}
+
+.customers-logo ul {
+    float: left;
+}
+
+.customers-logo li {
+    float: left;
+
+    padding: 17px 17px;
+    text-align: center;
+}
+ul.digital-traffic li{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 30px 10px;
+}
+ul.digital-traffic li:nth-child(2),ul.digital-traffic li:nth-child(5),ul.digital-traffic li:nth-child(8){
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+}
+ul.digital-traffic li .title{
+  font-size: 18px;
+}
+ul.digital-traffic li p{
+    padding: 0 10px 20px 10px;
+}
+ul.digital-traffic li img{
+    margin-right: 5px;
+}
+ul.digital-traffic-2{
+    padding: 20px 0;
+}
+ul.digital-traffic-2 li{
+
+
+}
+ul.digital-traffic-2 li .title{
+    font-size: 18px;
+}
+ul.digital-traffic-2 li img{
+    float: left;
+}
+ul.digital-traffic-2 li:nth-child(2){
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+}
+ul.digi-trat li{
+    padding: 2px 10px; text-align: left; list-style:inside;
+    border-right: 1px solid #fff !important;
+    border-left: 1px solid #fff !important;
+}
+ul.digi-trat-2{
+    padding-bottom: 20px;
+}
+ul.digi-trat-2 li{
+    list-style-image: url("../portfolio/portfolioimages/traffic-ok.png") ; text-align: left;
+    border-right: 1px solid #fff !important;
+    border-left: 1px solid #fff !important;
+}

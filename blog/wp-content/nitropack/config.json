@@ -1,0 +1,31 @@
+{
+    "config_path": "92e337dbfd25ff5eff3e560d760ee78c",
+    "intuisyz.com\/blog": {
+        "siteId": "WwltWVLPCVOKDAmRYuGxfgiLLVWXYFBQ",
+        "siteSecret": "8dcUCrhg7IK3ETqiz6o73QBqWX1kGpZf9drHESxsO2SayZAHmvmAe5E9gdljOsZP",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "427dfe8041b0111d3ea8f8101d882068",
+        "home_url": "https:\/\/intuisyz.com\/blog",
+        "admin_url": "https:\/\/intuisyz.com\/blog\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": false,
+        "isAeliaCurrencySwitcherActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.15",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": false,
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        }
+    }
+}

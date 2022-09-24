@@ -1,0 +1,205 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} intuisyz\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://intuisyz.com/$1 [R,L]
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/ipg
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+#added by vidya
+
+
+
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/subdirectoryname1/(.*)$ [OR]
+RewriteCond %{REQUEST_URI} ^/subdirectoryname2/(.*)$ [OR]
+RewriteRule ^.*$ - [L]
+</IfModule>
+Redirect 301 "/brochure/affordable_website.pdf" "https://intuisyz.com/"
+
+
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+ 
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+   </IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive on
+ 
+    ExpiresByType text/css "access plus 1 month"
+ </IfModule>
+ <IfModule mod_expires.c>
+  
+  
+ </IfModule>
+ 
+ 
+ 
+
+
+Redirect 301 /digital-marketing/web-design/web-e-commerce.php https://intuisyz.com/
+Redirect 301 /casestudy/software-development.php https://intuisyz.com/
+Redirect 301 /about-us/pricing.php https://intuisyz.com/
+Redirect 301 /digital-marketing/graphics-designs.php https://intuisyz.com/
+Redirect 301 /about-us/price-list.php https://intuisyz.com/
+Redirect 301 /digital-marketing/web-design/web-premium-website.php https://intuisyz.com/
+Redirect 301 /digital-marketing/web-design/web-affordable.php https://intuisyz.com/
+Redirect 301 /pricing/website.php https://intuisyz.com/
+Redirect 301 /digital_marketing.php https://intuisyz.com/digital/
+Redirect 301 /digital-marketing.php https://intuisyz.com/digital/
+
+Redirect 301 /digital-marketing/old_web-designs.php https://intuisyz.com/digital
+Redirect 301 /email_marketing.php https://intuisyz.com/digital/email-marketing.php
+Redirect 301 /email-marketing.php https://intuisyz.com/digital/email-marketing.php
+Redirect 301 /facebook-ads.php https://intuisyz.com/digital/social-media-advertising.php
+Redirect 301 /google-ads.php https://intuisyz.com/digital/google-ads-management.php
+Redirect 301 /content-marketing.php https://intuisyz.com/digital/content-marketing.php
+Redirect 301 /seo-company-in-kerala.php https://intuisyz.com/digital/seo-company-in-kerala.php
+Redirect 301 /smo.php https://intuisyz.com/digital/social-media-optimization.php
+Redirect 301 /social-media-marketing.php https://intuisyz.com/digital/social-media-marketing.php
+Redirect 301 /viral-marketing.php https://intuisyz.com/digital/viral-marketing.php
+Redirect 301 /conversion-rate-optimization.php https://intuisyz.com/digital/conversion-rate-optimization.php
+Redirect 301 /digital-marketing-consultants.php https://intuisyz.com/digital-marketing-consulting.php
+
+Redirect 302 /digital-marketing/ https://intuisyz.com/digital/
+Redirect 301 /college-portal.php https://intuisyz.com/
+Redirect 301 /school-portal.php https://intuisyz.com/
+Redirect 301 /e-learning.php https://intuisyz.com/
+Redirect 301 /pricing-website.php https://intuisyz.com/
+Redirect 301 /employee-performance-management.php https://intuisyz.com/
+Redirect 301 /crm.php https://intuisyz.com/
+Redirect 301 /accounting.php https://intuisyz.com/
+Redirect 301 /payroll.php https://intuisyz.com/
+Redirect 301 /budgeting-software.php https://intuisyz.com/
+Redirect 301 /travel-agency.php https://intuisyz.com/
+Redirect 301 /priceing_erp.php https://intuisyz.com/
+Redirect 301 /portfolio.php https://intuisyz.com/
+Redirect 301 /priceing_internet-marketing.php https://intuisyz.com/
+Redirect 301 /priceing_e_commerce.php https://intuisyz.com/
+Redirect 301 /priceing_erp_retails.php https://intuisyz.com/
+Redirect 301 /project-management.php https://intuisyz.com/
+Redirect 301 /erp-retailsold.php https://intuisyz.com/
+Redirect 301 /erp-retails.php https://intuisyz.com/
+Redirect 301 /erp-retailsold.php https://intuisyz.com/
+Redirect 301 /internet-market.php https://intuisyz.com/
+Redirect 301 /internet-marketing.php https://intuisyz.com/
+Redirect 301 /website.php https://intuisyz.com/
+Redirect 301 /erp-finance-payable-recievable.php https://intuisyz.com/
+Redirect 301 /vendor-management.php https://intuisyz.com/
+Redirect 301 /trading-warehouse-management.php https://intuisyz.com/
+Redirect 301 /trading-stock.php https://intuisyz.com/
+Redirect 301 /trading-purchase.php https://intuisyz.com/
+Redirect 301 /trading-pos.php https://intuisyz.com/
+Redirect 301 /thanks.php https://intuisyz.com/
+Redirect 301 /thank-you-for-enquiry.php https://intuisyz.com/
+Redirect 301 /social-media.php https://intuisyz.com/
+Redirect 301 /payroll-new.php https://intuisyz.com/
+Redirect 301 /non_free_q.php https://intuisyz.com/
+Redirect 301 /measurement.php https://intuisyz.com/
+Redirect 301 /intuisyz-finance-management.php https://intuisyz.com/
+Redirect 301 /internet_marketing.php https://intuisyz.com/
+Redirect 301 /graphic_des.php https://intuisyz.com/
+Redirect 301 /finance-budgeting-software.php https://intuisyz.com/
+Redirect 301 /finance-accounting.php https://intuisyz.com/
+Redirect 301 /erp-trading.php https://intuisyz.com/
+Redirect 301 /erp-hr.php https://intuisyz.com/
+Redirect 301 /erp-hr-payroll-management.php https://intuisyz.com/
+Redirect 301 /erp-hr-employee-recruiters.php https://intuisyz.com/
+Redirect 301 /casestudy_web_des.php https://intuisyz.com/
+Redirect 301 /casestudyerp.php https://intuisyz.com/
+Redirect 301 /casestudy_summary.php https://intuisyz.com/
+Redirect 301 /budgeting-software.php https://intuisyz.com/
+Redirect 301 /advertisement-design.php https://intuisyz.com/
+Redirect 301 /seo/seo.php https://intuisyz.com/
+Redirect 301 /succ.php https://intuisyz.com/
+Redirect 301 /portfolio_logo.php https://intuisyz.com/
+Redirect 301 /pricing.php https://intuisyz.com/
+Redirect 301 /sales-management.php https://intuisyz.com/
+Redirect 301 /portfolio_illustration.php https://intuisyz.com/
+Redirect 301 /project-management1.php https://intuisyz.com/
+
+Redirect 301 /pricing/e-commerce.php https://intuisyz.com/
+Redirect 301 /pricing/internet-marketing.php https://intuisyz.com/
+Redirect 301 /pricing/erp-retails.php https://intuisyz.com/
+Redirect 301 /testimonials.php https://intuisyz.com/
+
+Redirect 301 /erp1.php https://intuisyz.com/
+Redirect 301 /portfolio_animations.php https://intuisyz.com/
+Redirect 301 /pos.php https://intuisyz.com/
+Redirect 301 /portfolio/illustration.php https://intuisyz.com/
+Redirect 301 /casestudy/erp.php https://intuisyz.com/
+Redirect 301 /e-commerce.php https://intuisyz.com/
+Redirect 301 /portfolio-categories.php https://intuisyz.com/
+Redirect 301 /portfolio/advertisement.php https://intuisyz.com/
+Redirect 301 /project-management1.php https://intuisyz.com/
+Redirect 301 /erp-crm-services.php https://intuisyz.com/
+Redirect 301 /portfolio/brochure-designing.php https://intuisyz.com/
+Redirect 301 /portfolio/videos-animations.php https://intuisyz.com/
+Redirect 301 /portfolio/web-designing.php https://intuisyz.com/
+Redirect 301 /erp-e-commerce.php https://intuisyz.com/
+Redirect 301 /portfolio-websites-designing.php https://intuisyz.com/
+Redirect 301 /erp-crm-vendor-management.php https://intuisyz.com/
+Redirect 301 /portfolio-social-media.php https://intuisyz.com/
+Redirect 301 /erp-hr-eleave-management.php https://intuisyz.com/
+Redirect 301 /employee-trading-perfomance-analysis.php https://intuisyz.com/
+Redirect 301 /digital-marketing/internet-marketing/measurement.php https://intuisyz.com/
+Redirect 301 /digital-marketing/internet-marketing/enhancement.php https://intuisyz.com/
+Redirect 301 /erp-hr-employee-perfomance.php https://intuisyz.com/
+Redirect 301 /digital-marketing/internet-marketing/advertisement-design.php https://intuisyz.com/
+Redirect 301 /digital-marketing/internet-marketing/traffic-building.php https://intuisyz.com/
+Redirect 301 /digital-marketing/web-design/web-design-responsive.php https://intuisyz.com/
+
+Redirect 301 /digital-marketing-portfolio.php https://intuisyz.com/digital/portfolio/digital-marketing.php
+Redirect 301 /web_design_and_development.php https://www.intuisyz.com/digital-marketing/web-development.php
+Redirect 301 /about-us/history.php https://intuisyz.com/about-us.php
+
+Redirect 301 /digital/clients.php https://intuisyz.com/customer-stories.php
+Redirect 301 /digital/casestudy/digital-marketing.php https://intuisyz.com/casestudy/digital-marketing.php
+Redirect 301 /digital/casestudy/web-design.php https://intuisyz.com/casestudy/web-design.php
+Redirect 301 /digital/casestudy/erp.php https://intuisyz.com/casestudy/erp.php
+Redirect 301 /digital/digital-marketing.php https://intuisyz.com/digital
+
+Redirect 301 /digital/socila-media-optimization.php https://intuisyz.com/digital/social-media-optimization.php
+Redirect 301 /digital/socila-media-optimization.php https://intuisyz.com/digital/social-media-optimization.php
+
+
+
+
+
+# END WordPress
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 300
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 32M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php71"
+   php_value upload_max_filesize 64M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php71” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

@@ -1,0 +1,623 @@
+.wdr-ban{
+    background: url(../../images/2018/07/Blog-Banner-Background-Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    text-align: center;
+    padding: 50 0 50 0;
+}
+.wdr-ban h1{
+    
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.wdr-ban p{
+  
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+.wdr-ban a{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, blue 0%, #ff9b66 100%);
+    padding: 12 30 12 30;
+    border-radius: 4px !important;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    font-family: 'rubik';
+}
+.wdr-ban a:hover{
+    color: #fff;
+   
+    padding: 12 40 12 40;
+}
+.wdr-sec1{
+    margin: 40 0 40 0;
+}
+.wdr-sec1 p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Rubik;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    
+}
+.wdr-sec1 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.wdr-sec1 ul li{
+    list-style: none;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    margin: 10 0 0 0;
+}
+.wdr-sec2{
+    margin: 40 0 0 0;
+    background-color: #f2f2f2 !important;
+    width: 100%;
+    height: auto;
+    padding: 30 0 30 0;
+}
+.wdr-sec2 h4{
+    text-align: center;
+    font-size: 18px;
+
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+}
+.wdr-sec2 .sub{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+
+}
+.wdr-sec2 img{
+    
+        height: auto;
+        max-width: 100%;
+        vertical-align: top;
+        width: auto;
+}
+.wdr-sec2 h3{
+    text-align: left;
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+}
+.wdr-sec2 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+.pw-ban{
+    background: url(../../images/2020/06/pngtree-simple-gradient-e-commerce-web-page-image_21108.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    text-align: center;
+    padding:  50 0 50 0;
+}
+.pw-bg{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20 0 20 0;
+    width: 100%;
+}
+.pw-ban h1{
+    
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: 45px;
+ 
+}
+.pw-ban p{
+  
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+
+
+}
+.pw-ban a{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, blue 0%, #ff9b66 100%);
+    padding: 12 30 12 30;
+    border-radius: 4px !important;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    font-family: 'rubik';
+}
+.pw-ban a:hover{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, blue 0%, #ff9b66 100%);
+    padding: 12 20 12 20;
+    border-radius: 4px !important;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    font-family: 'rubik';
+}
+.pw-sec2{
+    margin: 40 0 40 0;
+}
+.pw-sec2 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.pw-sec2 h2{
+    text-align: center;
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 22px;
+}
+.pw-sec2 ul li{
+    list-style: none;
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    margin: 10 0 0 0;
+}
+.pw-sec1{
+    margin: 40 0 40 0;
+}
+.pw-sec1 h1{
+    
+text-align: center;
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 22px;
+}
+.pw-sec1 span{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+.pw-sec1 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+.pw-sec3 {
+    margin: 40 0 40 0;
+   padding: 40 0 40 0;
+    background-color: #f7f7f7 !important;
+}
+.pw-sec3 h5{
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+    text-align: center;
+}
+.pw-sec3 p{
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+    text-align: center;
+}
+.pw-sec3 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+    transition: ease-in-out .3s;
+}
+
+.pw-sec3 img:hover{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+    transform: scale(1.03);
+}
+.pw-sec4{
+    margin: 40 0 40 0;
+}
+.pw-sec4 h2{
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+}
+.pw-sec4 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+.pw-sec4 a{
+    color: #09276f;
+    font-weight: 700;
+}
+.pw-sec4 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.pw-sec5{
+    margin: 40 0 0 0;
+    background-color: #dbdbdb !important;
+    width: 100%;
+    height: auto;
+    padding: 40 0 40 0;
+    justify-content: center;
+    text-align: center;
+}
+.pw-sec5 h5{
+    text-align: center;
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+    margin: 0 0 40 0;
+}
+.pw-sec5 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+    text-align: center;
+}
+.ec-ban{
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center top;
+    background-image: url(../../images/2018/07/Blog-Banner-Background-Image.png);
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    text-align: center;
+    padding: 50 0 50 0;
+}
+.ec-ban h1{
+   
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.ec-ban h3{
+   
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+}
+.ec-ban a{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, blue 0%, #ff9b66 100%);
+    padding: 12 30 12 30;
+    border-radius: 4px !important;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    font-family: 'rubik';
+}
+.ec-ban a:hover{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, blue 0%, #ff9b66 100%);
+    padding: 12 20 12 20;
+    border-radius: 4px !important;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    font-family: 'rubik';
+}
+.ec-sec1{
+    margin: 40 0 40 0;
+}
+.ec-sec1 h2{
+    text-align: center;
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+}
+.ec-sec1 p{
+    font-family: 'rubik';
+    text-align: center;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+.ec-sec1 h3{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+}
+.ec-sec1 ul li{
+    list-style: none;
+    font-family: 'rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    margin: 10 0 0 0;
+}
+.ec-sec1 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.ec-sec2{
+    margin: 40 0 40 0;
+    padding: 40 0 40 0;
+    width:100%;
+    height: auto;
+    min-height: 300px;
+    background-color: #dbdbdb !important;
+}
+.ec-sec2 h3{
+    line-height: 12px;
+    text-align: center;
+    font-family: Poppins;
+
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 26px;
+}
+.ec-sec2 img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    width: auto;
+}
+.ec-sec2 h5{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: left;
+}
+.ec-sec2 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: left;
+}
+.ec-sec3{
+    margin: 40 0 40 0;
+}
+.ec-sec3 h3{
+   text-align: center;
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+}
+.ec-sec3 h5{
+    line-height: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: #212d31;
+    font-size: 18px;
+    text-align: left;
+}
+.ec-sec3 p{
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: left;
+}
+.ec-sec3 ul li{
+    list-style: none;
+    font-family: 'rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    margin: 10 0 0 0;
+}
+.ec-sec3 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.ec-sec4{
+    background-color: #320a87 !important;
+    width: 100%;
+    height: auto;
+    margin: 40 0 0 0;
+    padding: 40 0 40 0;
+
+}
+.ec-sec4 h2{
+    font-size: 30px;
+    color: #ffffff;
+
+    text-align: center;
+
+    font-weight: 700;
+    margin: 0 0 40 0;
+
+}
+.ec-sec4 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+}
+.wdc-ban{
+    background-size: cover;
+    background-position: center top;
+    background-image: url(../../images/2020/05/8-tips-to-kickstart-successful-content-marketing_web-banner.png);
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    text-align: center;
+    padding: 50 0 50 0;
+}
+
+.wdc-ban h1{
+   
+    line-height: 55px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 45px;
+}
+.wdc-ban h3{
+   
+    line-height: 29px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+}
+.wdc-ban a{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, blue 0%, #ff9b66 100%);
+    padding: 12 30 12 30;
+    border-radius: 4px !important;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    font-family: 'rubik';
+}
+.wdc-ban a:hover{
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 15px;
+    background: linear-gradient(to right, blue 0%, #ff9b66 100%);
+    padding: 12 20 12 20;
+    border-radius: 4px !important;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    font-family: 'rubik';
+}
+.wdc-sec1{
+    margin: 40 0 40 0;
+}
+.wdc-sec1 h1{
+    font-size: 35px;
+    color: #181616;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+.wdc-sec1 h2{
+    font-size: 16px;
+    color: #181616;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500;
+}
+.wdc-sec1 p{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: center;
+}
+.wdc-sec1 h3{
+    font-size: 16px;
+    color: #181616;
+    line-height: 26px;
+    text-align: left;
+    font-weight: 700;
+}
+.wdc-sec1 .subp{
+    font-family: 'Rubik';
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #212d31;
+    font-size: 15px;
+    text-align: justify;
+}
+.wdc-sec1 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    width: auto;
+ 
+}

@@ -1,0 +1,529 @@
+/*
+* Less variables should be separated by a semicolon. Example of correct usage:
+* .grid-column(1;3;4%) for a one-third column with 4% margins.
+*
+* @n - Numeric. How many columns this grid column should span, by default out of twelve,
+* @total - Numeric. How many columns the grid row should have in total.
+* @margin - Percentage. Column gutters.
+*/
+/*
+* .grid-row() is used to correct margins for the grid and includes a clearfix.
+* Call this on elements that will contain .grid-column();
+*
+* @margin - Percentage. Column gutter; should match the gutter specified in .grid-column().
+*/
+/*
+* .push() and .pull() are to be used in conjunction with .grid-column().
+* Note that they must be used AFTER .grid-column() for heritance to work properly,
+* as .grid-column() will also set a margin.
+*/
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1px;
+  line-height: 0.0625rem;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-tel:before {
+  content: "\e601";
+}
+.icon-arrow-down:before {
+  content: "\e611";
+}
+.icon-arrow-left:before {
+  content: "\e612";
+}
+.icon-arrow-right:before {
+  content: "\e610";
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+/* Accessibility */
+.a11y-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.a11y-hidden-focusable:active,
+.a11y-hidden-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+/*****************************************************************************/
+/*
+/* Featured In section
+/*
+/*****************************************************************************/
+.featured-in {
+  background-image: url("../../img/partials/featured-in/spritesheet.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 7%;
+  vertical-align: middle;
+  -khtml-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -ms-filter: 'alpha(opacity=50)';
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .featured-in {
+    background-image: url("../../img/partials/featured-in/spritesheet%402x.png");
+  }
+}
+.featured-in.featured-in-cnet {
+  background-position: 0 100%;
+  width: auto;
+  height: auto;
+  background-size: 406.25%;
+}
+.featured-in.featured-in-cnn {
+  background-position: 0 83.333333%;
+  width: auto;
+  height: auto;
+  background-size: 375%;
+}
+.featured-in.featured-in-forbes {
+  background-position: 0 50%;
+  width: auto;
+  height: auto;
+  background-size: 205.263158%;
+}
+.featured-in.featured-in-mashable {
+  background-position: 0 33.333333%;
+  width: auto;
+  height: auto;
+  background-size: 150%;
+}
+.featured-in.featured-in-nyt {
+  background-position: 0 16.666667%;
+  width: auto;
+  height: auto;
+  background-size: 111.428571%;
+}
+.featured-in.featured-in-pcworld {
+  background-position: 0 66.666667%;
+  width: auto;
+  height: auto;
+  background-size: 205.263158%;
+}
+.featured-in.featured-in-techcrunch {
+  background-position: 0 0%;
+  width: auto;
+  height: auto;
+  background-size: 100%;
+}
+/*****************************************************************************/
+/*
+/* Vertical Support
+/*
+/*****************************************************************************/
+.support-vertical-section {
+  background-color: #0d83dd;
+  background-image: url("../../img/team/supportpic.jpg");
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/team/supportpic-ie8.jpg', sizingMethod='scale')";
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .support-vertical-section {
+    background-image: url("../../img/team/supportpic%402x.jpg");
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-vertical-section {
+    background-image: url(../../img/team/supportpic.jpg);
+  }
+}
+@media screen and (max-width: 767px) {
+  .vertical-support-cloud-info {
+    padding-top: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .vertical-support-cloud-info {
+    padding-top: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .vertical-support-cloud-info {
+    padding-top: 35%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .vertical-support-cloud-info {
+    padding-top: 85%;
+  }
+}
+.vertical-support-cloud {
+  background-image: url("../../img/team/support-cloud.svg");
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/team/support-cloud.png', sizingMethod='scale')";
+  background-repeat: no-repeat;
+  background-position: center 15px;
+}
+@media screen and (max-width: 767px) {
+  .vertical-support-cloud {
+    padding-top: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .vertical-support-cloud {
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .vertical-support-cloud {
+    padding-top: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .vertical-support-cloud {
+    padding-top: 45px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .vertical-support-cloud {
+    padding-top: 50px;
+  }
+}
+.section-vertical-support-info {
+  text-align: center;
+  color: white;
+  padding-bottom: 2%;
+  border-bottom: 1px solid white;
+}
+.section-vertical-support-info .heading-sub {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+}
+.support-options-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: left;
+  display: inline-block;
+  width: auto;
+}
+@media screen and (max-width: 767px) {
+  .support-options-list {
+    text-align: center;
+  }
+}
+.support-h2.section-heading-secondary {
+  font-size: 38px;
+  font-size: 2.375rem;
+}
+.support-options {
+  display: inline-block;
+}
+.support-phone {
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .support-phone {
+    margin-bottom: 12px;
+  }
+}
+.support-phone-icon {
+  vertical-align: middle;
+}
+.support-phone-number {
+  vertical-align: middle;
+}
+.support-email {
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+.support-email-icon {
+  vertical-align: middle;
+}
+.support-icons {
+  padding-right: 4px;
+}
+.section-vertical-support-info a {
+  color: white;
+}
+.section-vertical-support-info a:hover,
+:focus {
+  text-decoration: none;
+}
+/*****************************************************************************/
+/*
+/* Vertical Hero
+/*
+/*****************************************************************************/
+.creatives-and-marketing-bg {
+  background-image: url("../../img/hero/hero-marina.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .creatives-and-marketing-bg {
+    background-image: url("../../img/hero/hero-marina%402x.jpg");
+  }
+}
+.legal-and-business-bg {
+  background-image: url("../../img/hero/hero-nnena.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .legal-and-business-bg {
+    background-image: url("../../img/hero/hero-nnena%402x.jpg");
+  }
+}
+.information-technology-bg {
+  background-image: url("../../img/hero/hero-aaron.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .information-technology-bg {
+    background-image: url("../../img/hero/hero-aaron%402x.jpg");
+  }
+}
+.trades-and-home-services-bg {
+  background-image: url("../../img/hero/hero-justin.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .trades-and-home-services-bg {
+    background-image: url("../../img/hero/hero-justin%402x.jpg");
+  }
+}
+.hero-bg {
+  background-color: #0d83dd;
+}
+.hero {
+  overflow: auto;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.hero-h1 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .hero-h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-h2,
+  .hero .heading-sub {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+.hero-h1,
+.hero-h2,
+.hero .heading-sub,
+.vertical-banner {
+  margin: 0 0 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .hero-h1,
+  .hero-h2,
+  .hero .heading-sub,
+  .vertical-banner {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-h1 .hero-break,
+  .hero-h2 .hero-break,
+  .hero .heading-sub .hero-break,
+  .vertical-banner .hero-break {
+    display: block;
+  }
+}
+.hero-centered,
+.hero .hero-centered {
+  margin: auto;
+}
+.try-button .button-primary {
+  padding: 14px 50px;
+  display: block;
+  margin: 0 auto;
+  overflow: visible;
+  text-decoration: none;
+  text-align: center;
+  min-width: 280px;
+}
+@media screen and (max-width: 767px) {
+  .try-button .button-primary {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .try-button .button-primary {
+    width: 100%;
+    padding: 14px 15px;
+  }
+}
+.try-button p {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .try-button {
+    float: none;
+    max-width: inherit;
+  }
+}
+.try-button-hero {
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .try-button-hero {
+    float: left;
+  }
+}
+.try-button-hero p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #9FCEF2;
+  color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (max-width: 767px) {
+  .try-button-hero {
+    float: none;
+    max-width: inherit;
+  }
+}
+.hero-customer {
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .hero-customer {
+    padding-top: 0;
+  }
+}
+.hero-customer .person-img {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .hero-customer .person-img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.hero-customer-info {
+  float: right;
+  margin-top: 50px;
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .hero-customer-info {
+    display: block;
+  }
+}
+.hero-customer-info h3 {
+  color: #fff;
+  margin: 0;
+  font-family: "FreshBooksScript-Regular", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+.hero-customer-info p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #9FCEF2;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 2.5px;
+}
+/*****************************************************************************/
+/*
+/* Features
+/*
+/*****************************************************************************/
+.features-vertical-bg {
+  margin-bottom: 30px;
+}
+/*****************************************************************************/
+/*
+/* Benefits
+/*
+/*****************************************************************************/
+.benefits-featured {
+  margin-top: 3.5%;
+  margin-bottom: 1%;
+}
+.section-benefits {
+  margin-bottom: 0;
+}
+.benefit-headline {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+/*****************************************************************************/
+/*
+/* Testimonials
+/*
+/*****************************************************************************/
+.testimonials-large {
+  padding: 30px 15px;
+}
+@media screen and (max-width: 767px) {
+  .testimonials-large {
+    padding: 0 15px;
+  }
+}
+/*****************************************************************************/
+/*
+/* Footer Sign-Up
+/*
+/*****************************************************************************/
+.vertical-sign-up-footer > .footer-sign-up {
+  padding: 2% 15px;
+}
+.vertical-sign-up-footer > .footer-sign-up .section-heading-secondary {
+  font-size: 38px;
+  font-size: 2.375rem;
+}
+@media screen and (min-width: 768px) {
+  .vertical-sign-up-footer > .footer-sign-up .section-heading-secondary {
+    margin-top: 0;
+  }
+}

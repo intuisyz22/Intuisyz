@@ -1,0 +1,344 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1px;
+  line-height: 0.0625rem;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-tel:before {
+  content: "\e601";
+}
+.icon-arrow-down:before {
+  content: "\e611";
+}
+.icon-arrow-left:before {
+  content: "\e612";
+}
+.icon-arrow-right:before {
+  content: "\e610";
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+/* Accessibility */
+.a11y-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.a11y-hidden-focusable:active,
+.a11y-hidden-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+.feather-modal {
+  border-radius: 4px;
+}
+.feather-modal-white {
+  background: #fff;
+}
+.feather-modal-inner {
+  padding: 20px;
+}
+.modal-hidden {
+  display: none;
+}
+.modal-paid-plans {
+  background: #fff;
+  text-align: center;
+  max-width: 800px;
+}
+.modal-pricing-grid-bg {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  transition: all 0.3s ease;
+}
+/*
+ * Headings
+ */
+.main_content h1,
+.payment_form_padding h1,
+.email_form h1 {
+  font: normal 55px/60px Franklin-Medium, Helvetica, Arial, sans-serif;
+  color: #000;
+  margin: 30px 0 20px 25px;
+}
+.main_content h2,
+.payment_form_padding h2,
+.email_form h2 {
+  font: normal 23px/30px Helvetica, Arial, sans-serif;
+  color: #000;
+  margin: 0 0 20px 25px;
+}
+.main_content h3,
+.payment_form_padding h3,
+.email_form h3 {
+  font: normal 32px/32px Helvetica, Arial, sans-serif;
+  color: #0d83dd;
+  margin: 0 0 32px 0;
+}
+/*
+ * main section
+ */
+#main {
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #ddd;
+}
+.book_cover {
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.main_content,
+.email_form {
+  float: left;
+  width: 476px;
+  padding: 0 40px 0 30px;
+}
+.action {
+  padding-left: 25px;
+}
+.action_bg {
+  background-color: #0d83dd;
+  font-size: 13px;
+  color: #cbdef6;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 20px;
+}
+.email_form .action_bg {
+  padding: 20px 20px 0;
+}
+.action.tip_left {
+  background: url('../../img/non-responsive/ebook/action-tip-left.gif') no-repeat 0 center;
+}
+.action_pay {
+  font-size: 17px;
+  text-align: center;
+  padding: 20px 0 0 25px;
+}
+.pad_t_10 {
+  padding-top: 10px;
+}
+/*
+ * quotes section
+ */
+#quotes {
+  padding: 40px 20px 20px;
+}
+.quotes_col_left {
+  float: left;
+}
+.quotes_col_right {
+  float: left;
+}
+.quote {
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding: 0 10px 40px 100px;
+  width: 350px;
+}
+.quotes_col_right .quote {
+  margin-left: 10px;
+  padding-right: 0;
+}
+.quote p {
+  font: 18px/24px Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  color: #333;
+}
+.quote_name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d83dd;
+}
+.quote_info {
+  color: #999;
+  font-size: 13px;
+  line-height: 17px;
+  padding-top: 4px;
+}
+.john {
+  background-image: url('../../img/non-responsive/ebook/john-jantsch.jpg');
+}
+.tim {
+  background-image: url('../../img/non-responsive/ebook/tim-ferriss.jpg');
+}
+.daniel {
+  background-image: url('../../img/non-responsive/ebook/daniel-pink.jpg');
+}
+.gregory {
+  background-image: url('../../img/non-responsive/ebook/gregory-lafollette.jpg');
+}
+.michael {
+  background-image: url('../../img/non-responsive/ebook/michael-gerber.jpg');
+}
+.tina {
+  background-image: url('../../img/non-responsive/ebook/tina-eisenberg.jpg');
+}
+.sam {
+  background-image: url('../../img/non-responsive/ebook/sam-glover.jpg');
+}
+header {
+  border-bottom: lightgray solid 1px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header-subtitle {
+  float: left;
+  color: gray;
+  padding-top: 48px;
+  padding-left: 15px;
+  font-size: 13px;
+}
+.header-prompt {
+  float: right;
+  padding-top: 48px;
+  color: black;
+  text-align: center;
+}
+.header-prompt span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.header-prompt a {
+  color: blue;
+}
+.top_quote {
+  font: 20px/25px Georgia, "Times New Roman", Times, serif;
+  padding: 0 120px 40px;
+  color: #333;
+  text-align: center;
+}
+.top_quote_name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d83dd;
+  padding-top: 4px;
+}
+.top_quote_info {
+  color: #999;
+  font-size: 13px;
+  font-weight: normal;
+}
+/*
+ * comments
+ */
+#comments {
+  text-align: center;
+  font: 18px/24px Arial, Helvetica, sans-serif;
+  padding: 0px 0px 20px;
+}
+/*
+ * Buttons
+ */
+.button {
+  background-position: 0 0;
+  text-decoration: none !important;
+}
+.button span {
+  background-position: 100% 0;
+  color: white;
+  font: 23px/52px Arial, Helvetica, sans-serif;
+  text-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 75px;
+  letter-spacing: 1px;
+}
+.button:hover {
+  background-position: 0 -52px;
+}
+.button:hover span {
+  background-position: 100% -52px;
+}
+.button,
+.button span {
+  display: block;
+  height: 52px;
+}
+/*
+ * payment form lightbox
+ */
+.feather-modal {
+  background: #fff;
+  width: 640px;
+  overflow: hidden;
+}
+.feather-modal-inner {
+  padding: 20px;
+}
+.featherlight .featherlight-content {
+  padding: 10px 10px 0;
+}
+.modal-ebook-heading {
+  margin: 15px 15%;
+  display: inline-block;
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1;
+}
+.payment_form_padding {
+  padding: 20px;
+  width: 640px;
+}
+.payment_form_logo {
+  padding: 0 0 20px;
+  text-align: center;
+}
+.payment_form_footer {
+  background: url(../images/credit-cards.html) no-repeat 20px 0;
+  height: 30px;
+  margin-top: 20px;
+}
+.payment_form_security {
+  background: url(../images/lock.html) no-repeat 0 4px;
+  padding: 0 0 0 15px;
+  margin-top: 6px;
+  color: #999;
+  font-size: 13px;
+  float: right;
+}
+.payment_form_illustration {
+  padding: 0;
+  text-align: center;
+  height: 221px;
+  margin-bottom: -28px;
+}

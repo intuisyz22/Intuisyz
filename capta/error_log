@@ -1,0 +1,20 @@
+[17-Nov-2021 09:08:08 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:27:43 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:32:10 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:32:23 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:42:49 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:42:51 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:42:53 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:42:55 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 09:42:56 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 12:15:23 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 13:57:52 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 14:18:59 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 15:03:45 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 15:03:50 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 16:55:41 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 17:09:34 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 17:09:43 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 17:39:35 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[17-Nov-2021 17:40:29 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/detabbxlo4s5/public_html/intuisyz.com/cont_captcha/captcha.php on line 14
+[04-Mar-2022 06:59:59 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/intutive/public_html/cont_captcha/captcha.php on line 2

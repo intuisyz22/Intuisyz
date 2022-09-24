@@ -1,0 +1,165 @@
+<?php  
+ob_start();
+require_once '../include/config.php';  
+include_once('../include/MailFunction.php');
+    class UserFunction {  
+        public $con;     
+        function __construct() {  
+              
+            // connecting to database  
+            $db = new DbConnect(); 
+            $this->con = $db->connect();
+               
+        }  
+        // destructor  
+        function __destruct() {  
+              
+        }  
+
+
+///////////////////////////Candidate Reg START///////////////////////////////////
+public function getActiveQpaper(){
+        $query="SELECT * from question_paper where  qpaper_status=1 ORDER BY qpaper_ID DESC";
+        // echo $query;exit;
+        $result= mysqli_query($this->con,$query);
+        $count_result=mysqli_num_rows($result);
+        if($count_result==0){
+            $data['status']=0;
+            $data['msg']="Question Paper is not available to attend the exam";
+        }else{
+            $data['status']=1;
+            while ($row=mysqli_fetch_assoc($result)){
+                $data['data'][]=$row;
+            }
+        }
+        // print_r($data);exit;
+        return $data;
+    }
+public function candidateReg($data){
+    $str = rand(); 
+    $password = hash("sha256", $str); 
+    $password=substr($password, 0,8);
+    $email_id=$data['email_id'];
+    $name=$data['name'];
+    $last_name=$data['last_name'];
+    $cur_company=$data['cur_company'];
+    $desig=$data['desig'];
+    $cur_ctc=$data['cur_ctc'];
+    $expected_ctc=$data['expected_ctc'];
+    $phno=$data['phno'];
+    $house_name=$data['house_name'];
+    $street=$data['street'];
+    $city=$data['city'];
+    $pincode=$data['pincode'];
+    $state=$data['state'];
+    $_SESSION['uname']=$email_id;
+    $exam_id=$data['exam_id'];
+
+
+    $login_query = "INSERT INTO login(uname,password,type) VALUES('$email_id','$password','2')";
+    mysqli_query($this->con,$login_query);
+    $uid = mysqli_insert_id($this->con);
+    $_SESSION['uid']=$uid;
+    $_SESSION['name']=$name;
+    $_SESSION['user_type']=2;
+    $query = "INSERT INTO `candidates` (`exam_id`,`uid`, `name`, `last_name`, `cur_company`, `desig`, `cur_ctc`, `expected_ctc`, `phno`, `email_id`, `house_name`, `street`, `city`, `pincode`, `state`) VALUES ('$exam_id','$uid', '$name', '$last_name', '$cur_company', '$desig', '$cur_ctc', '$expected_ctc', '$phno', '$email_id', '$house_name', '$street', '$city', '$pincode', '$state');";
+    if(mysqli_query($this->con,$query)){
+        $result['msg']="You can Now Attend the Examination";
+        $result['pageload']="candidatereg.php";
+        $result['status']=1;
+        $mail_data = [
+                        'to_email' => $email_id,
+                        'password'=>$password
+                    ];
+                    $this->sendUserWelcomeMail($mail_data);
+    }else{
+        $result['msg']="Registration Failed.";
+        $result['pageload']="candidatereg.php";
+        $result['status']=0;
+    }
+
+    return $result;
+}
+public function checkUniqMail($email_id){
+    $query = "SELECT * FROM candidates where email_id='$email_id'";
+    // echo $query;exit;
+    $res = mysqli_query($this->con,$query); 
+    $count = mysqli_num_rows($res);
+    return $count;    
+}
+
+
+/*//////////////////////////Candidate Reg END/////////////////////////////////// 
+
+////////////////////////////// User Login 
+Created by: Vidya LV
+On: 27/01/2020
+////////////////////////////////////*/
+public function userlogin($data){
+    $uname = mysqli_real_escape_string($this->con,$data['email']);
+    $pass = mysqli_real_escape_string($this->con,$data['password']);
+    $query = "SELECT * FROM login WHERE uname='" . $uname . "' and password='" . $pass . "'";
+    // echo $query;exit;
+    $result=mysqli_query($this->con,$query);
+    $count = mysqli_num_rows($result);
+    $row = mysqli_fetch_assoc($result);
+    $type=$row['type'];
+    // echo $count;
+    if ($count != 0) {
+        // echo "success";exit;
+        $_SESSION["msg"]="";
+        $_SESSION['user_type']=$type;
+        $_SESSION['email']=$row['uname'];
+        $_SESSION['uid']=$row['id'];
+        if($type==1){
+            // header("location: ../admin/dashboard.php");
+            header("location:".BASE_URL."/admin/dashboard.php");exit;
+        }
+        else{
+                $checkenable = "SELECT l.*,c.name,c.exam_id FROM login l LEFT JOIN candidates c ON l.id=c.uid WHERE l.uname='" . $uname . "' and l.password='" . $pass . "' and l.status=1";
+                // echo $checkenable;exit;
+                $result=mysqli_query($this->con,$checkenable);
+                $count = mysqli_num_rows($result);
+                $row = mysqli_fetch_assoc($result);
+                // print_r($row);exit;
+                if($count==0){
+                    $_SESSION["msg"]="Your account is disabled. Please contact admin";
+                    header("location: index.php");
+                }else{
+                    $_SESSION['uid']=$row['id'];
+                    $_SESSION['name']=$row['name'];
+                    $exam_id=$row['exam_id'];
+                    header("Location: ".BASE_URL."exam/mock_exam_instructions.php?id=".$exam_id);exit;
+                }
+        }
+    }else{
+        // echo "failed";exit;
+        $_SESSION["msg"]="Invalid Username Or Password !";
+        header("location:".BASE_URL."/user/index.php");exit;
+        // return;
+    }
+}
+////////////////////////////// User Login End /////////////////////////////////////
+
+///////////////////////////////Mail Function//////////////////////
+
+    public function sendUserWelcomeMail($data){
+
+            $mailObj = new MailFunction();
+            $html='<!doctype html> <html> <head> <meta name="viewport" content="width=device-width" /> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <title>Exam Desk</title> <style> img { border: none; -ms-interpolation-mode: bicubic; max-width: 100% } body { background-color: #f6f6f6; font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100% } table { border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100% } table td { font-family: sans-serif; font-size: 14px; vertical-align: top } .body { background-color: #f6f6f6; width: 100% } .container { display: block; margin: 0 auto !important; max-width: 580px; padding: 10px; width: 580px } .content { box-sizing: border-box; display: block; margin: 0 auto; max-width: 580px; padding: 10px } .main { background: #fff; border-radius: 3px; width: 100% } .wrapper { box-sizing: border-box; padding: 20px } .content-block { padding-bottom: 10px; padding-top: 10px } .footer { clear: both; margin-top: 10px; text-align: center; width: 100% } .footer td, .footer p, .footer span, .footer a { color: #999; font-size: 12px; text-align: center } h1, h2, h3, h4 { color: #000; font-family: sans-serif; font-weight: 400; line-height: 1.4; margin: 0; margin-bottom: 30px } h1 { font-size: 35px; font-weight: 300; text-align: center; text-transform: capitalize } p, ul, ol { font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 15px } p li, ul li, ol li { list-style-position: inside; margin-left: 5px } a { color: #3498db; text-decoration: underline } .btn { box-sizing: border-box; width: 100% } .btn>tbody>tr>td { padding-bottom: 15px } .btn table { width: auto } .btn table td { background-color: #fff; border-radius: 5px; text-align: center } .btn a { background-color: #fff; border: solid 1px #3498db; border-radius: 5px; box-sizing: border-box; color: #3498db; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; margin: 0; padding: 12px 25px; text-decoration: none; text-transform: capitalize } .btn-primary table td { background-color: #3498db } .btn-primary a { background-color: #3498db; border-color: #3498db; color: #fff } .last { margin-bottom: 0 } .first { margin-top: 0 } .align-center { text-align: center } .align-right { text-align: right } .align-left { text-align: left } .clear { clear: both } .mt0 { margin-top: 0 } .mb0 { margin-bottom: 0 } .preheader { color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0 } .powered-by a { text-decoration: none } hr { border: 0; border-bottom: 1px solid #f6f6f6; margin: 20px 0 } @media only screen and (max-width: 620px) { table[class=body] h1 { font-size: 28px !important; margin-bottom: 10px !important } table[class=body] p, table[class=body] ul, table[class=body] ol, table[class=body] td, table[class=body] span, table[class=body] a { font-size: 16px !important } table[class=body] .wrapper, table[class=body] .article { padding: 10px !important } table[class=body] .content { padding: 0 !important } table[class=body] .container { padding: 0 !important; width: 100% !important } table[class=body] .main { border-left-width: 0 !important; border-radius: 0 !important; border-right-width: 0 !important } table[class=body] .btn table { width: 100% !important } table[class=body] .btn a { width: 100% !important } table[class=body] .img-responsive { height: auto !important; max-width: 100% !important; width: auto !important } } @media all { .ExternalClass { width: 100% } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100% } .apple-link a { color: inherit !important; font-family: inherit !important; font-size: inherit !important; font-weight: inherit !important; line-height: inherit !important; text-decoration: none !important } #MessageViewBody a { color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit } .btn-primary table td:hover { background-color: #34495e !important } .btn-primary a:hover { background-color: #34495e !important; border-color: #34495e !important } } </style> </head> <body class=""> <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body"> <tr> <td class="container"> <div class="content"> <table role="presentation" class="main"> <tr> <td class="wrapper"> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td> <p style="display: flex; justify-content: center;"><img src="http://tecotalk.com'.BASE_URL.'/asset/img/intuisyz_logo.jpg" width="40%" /></p> <p>Dear Candidate,</p> <p>Thank you for signing up to our Exam Desk.</p> <p>Please find the login credentials for attending the exam. If you have any questions, please reply to this email. We are always happy to help!.</p>URL:  <a href="'.BASE_URL.'user/">'.BASE_URL.'user/</a><br>User Name: '.$data['to_email'].'<br>Password: '.$data['password'].' <br><p>Regards,</p> <p>Intuisyz</p> <p><i>Exam Desk:</i> <br /> Email Address: info@tecotalk.com</p>  </td> </tr> </table> </td> </tr> </table> <div class="footer"> <table role="presentation" border="0" cellpadding="0" cellspacing="0"> <tr> <td class="content-block"> <span class="apple-link">Tecotalk, 8804 El Verano Ave, Elverta, CA</span></td> </tr> </table> </div> </div> </td> </tr> </table> </body> </html>';
+            $subject = "Welcome To Intuisyz Exam Desk";
+            $to_email = $data['to_email'];
+            $mail_data = [
+                'html' => $html,
+                'subject' => $subject,
+                'to_email' => $to_email,
+                'module' => 'welcome mail'
+            ];
+
+            $res = $mailObj->sendSMTPMail($mail_data);
+            return $res;
+        }
+
+
+    }  
+?>  
