@@ -1,4 +1,4 @@
-<?php
+<?php?><?php
 ob_start();
 include_once('db/config.php');
 $con=connectDB();
