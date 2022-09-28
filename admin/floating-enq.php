@@ -106,7 +106,7 @@ $up=mysqli_query($con,"UPDATE `slider-enquiry` SET `status`='2'");
                  ?>
                    <tr>
                     <td> <?php echo $name ?> </td>
-                    <td> <?php echo $email ?></td>
+                    <td style="max-width:300px;word-wrap:break-word;"> <?php echo $email ?></td>
                     
                    <td> <?php echo $phone ?> </td>
                    <td> <?php echo $ser ?> </td>
